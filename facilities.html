@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-field="title">Facilities | Edusky Private School</title>
+<meta name="description" content="Explore Edusky Private School's purpose-built campus — computer lab, science lab, library, hall, classrooms, discussion rooms, and more.">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/cms.js" defer></script>
+</head>
+<body data-content="facilities">
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="images/logo.webp" alt="Edusky Logo" onerror="this.style.display='none'">
+      <span>Edusky Private School</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="programmes.html">Programmes</a></li>
+      <li><a href="admissions.html">Admissions</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="facilities.html" class="active">Facilities</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="admissions.html" class="nav-cta">Enrol Now</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">&#9776;</button>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="programmes.html">Programmes</a>
+  <a href="admissions.html">Admissions</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="facilities.html">Facilities</a>
+  <a href="contact.html">Contact</a>
+  <a href="admissions.html" class="mobile-cta">Enrol Now</a>
+</div>
+
+<section class="page-hero">
+  <div class="page-hero-content">
+    <h1 data-field="hero.title">Facilities</h1>
+    <p data-field="hero.subtitle">Purpose-built spaces designed for small-group learning, hands-on discovery, and community gathering.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="section-label">Spaces</p>
+    <h2 class="section-title">A Real School With Real Spaces</h2>
+    <p class="section-subtitle">Our campus at 71, Jalan Adda 3/1 includes purpose-built facilities visited and positively assessed by Chinese investors.</p>
+    <div class="grid-3" style="margin-top:36px" data-list="items">
+      <div class="card" data-item style="padding:0;overflow:hidden">
+        <div style="height:200px;overflow:hidden">
+          <img data-field="image" data-type="image" src="images/facility-placeholder.jpg" alt="Facility" style="width:100%;height:100%;object-fit:cover">
+        </div>
+        <div style="padding:20px">
+          <h3 style="font-size:16px" data-field="name">Computer Lab</h3>
+          <p style="font-size:13px;color:var(--gray)" data-field="description">Modern computing facilities for digital literacy and ICT lessons.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><div class="footer-brand">Edusky Private School</div><p>Small by design. Big on heart.</p></div>
+      <div><h4>Quick Links</h4><p><a href="about.html">About</a></p><p><a href="programmes.html">Programmes</a></p><p><a href="admissions.html">Admissions</a></p></div>
+      <div><h4>Contact</h4><p>71, Jalan Adda 3/1, Taman Adda Height, 81100 Johor Bahru</p><p><a href="tel:+6073642678">07-364 2678</a></p></div>
+      <div><h4>Follow</h4><p><a href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p><p><a href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Edusky Private School.</span><span>Built with hope for every child.</span></div>
+  </div>
+</footer>
+
+<a href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+<script>
+const navToggle=document.getElementById('navToggle'),mobileNav=document.getElementById('mobileNav');
+if(navToggle&&mobileNav){navToggle.addEventListener('click',()=>mobileNav.classList.toggle('open'));mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileNav.classList.remove('open')));}
+</script>
+</body>
+</html>

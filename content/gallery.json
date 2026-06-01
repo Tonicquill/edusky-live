@@ -1,0 +1,25 @@
+{
+  "title": "Gallery | Edusky Private School",
+  "hero": {
+    "title": "Edusky in Pictures",
+    "subtitle": "Real moments from a small school with a big heart. Classrooms, concerts, celebrations, and everyday joy."
+  },
+  "categories": [
+    { "name": "Events" },
+    { "name": "Classrooms" },
+    { "name": "Students" },
+    { "name": "Celebrations" },
+    { "name": "Outdoor" },
+    { "name": "Sports" },
+    { "name": "Facilities" }
+  ],
+  "images": [
+    { "src": "images/gallery/event-001.jpg", "caption": "Year End Concert", "category": "Events" },
+    { "src": "images/gallery/classroom-001.jpg", "caption": "Learning in Action", "category": "Classrooms" },
+    { "src": "images/gallery/student-001.jpg", "caption": "Student Portrait", "category": "Students" },
+    { "src": "images/gallery/celebration-001.jpg", "caption": "Celebration Day", "category": "Celebrations" },
+    { "src": "images/gallery/outdoor-001.jpg", "caption": "Outdoor Fun", "category": "Outdoor" },
+    { "src": "images/gallery/sports-001.jpg", "caption": "Sports Day", "category": "Sports" },
+    { "src": "images/gallery/facility-001.jpg", "caption": "School Hall", "category": "Facilities" }
+  ]
+}

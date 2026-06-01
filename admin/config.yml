@@ -1,0 +1,294 @@
+backend:
+  name: github
+  repo: Tonicquill/edusky-live
+  branch: main
+  base_url: https://Tonicquill.github.io
+  auth_endpoint: /edusky-live/admin/
+
+media_folder: images
+public_folder: images
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - label: Home Page
+        name: home
+        file: content/home.json
+        fields:
+          - { label: Page Title, name: title, widget: string }
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Title Line 1, name: title1, widget: string }
+              - { label: Title Line 2, name: title2, widget: string }
+              - { label: Badge, name: badge, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Hero Image, name: image, widget: image }
+              - { label: CTA Primary, name: cta_primary, widget: string }
+              - { label: CTA Primary Link, name: cta_primary_link, widget: string }
+              - { label: CTA Secondary, name: cta_secondary, widget: string }
+              - { label: CTA Secondary Link, name: cta_secondary_link, widget: string }
+          - label: Philosophy
+            name: philosophy
+            widget: object
+            fields:
+              - { label: Section Label, name: label, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Cards
+                name: cards
+                widget: list
+                fields:
+                  - { label: Icon, name: icon, widget: string }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Text, name: text, widget: text }
+          - label: Programmes Preview
+            name: programmes
+            widget: object
+            fields:
+              - { label: Section Label, name: label, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Image, name: image, widget: image }
+                  - { label: Link, name: link, widget: string }
+          - label: Stats
+            name: stats
+            widget: list
+            fields:
+              - { label: Value, name: value, widget: string }
+              - { label: Label, name: label, widget: string }
+          - label: CTA Section
+            name: cta
+            widget: object
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { label: Button 1, name: btn1, widget: string }
+              - { label: Button 1 Link, name: btn1_link, widget: string }
+              - { label: Button 2, name: btn2, widget: string }
+              - { label: Button 2 Link, name: btn2_link, widget: string }
+
+      - label: About Page
+        name: about
+        file: content/about.json
+        fields:
+          - { label: Page Title, name: title, widget: string }
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+          - label: Mission
+            name: mission
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: text, widget: text }
+          - label: Vision
+            name: vision
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: text, widget: text }
+          - label: Founder
+            name: founder
+            widget: object
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: Bio, name: bio, widget: text }
+              - { label: Photo, name: photo, widget: image }
+          - label: Values
+            name: values
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+          - label: Timeline
+            name: timeline
+            widget: list
+            fields:
+              - { label: Year, name: year, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+
+      - label: Programmes Page
+        name: programmes
+        file: content/programmes.json
+        fields:
+          - { label: Page Title, name: title, widget: string }
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+          - label: Primary School
+            name: primary
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Subjects
+                name: subjects
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+          - label: Enrichment
+            name: enrichment
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Activities
+                name: activities
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+          - label: Camps
+            name: camps
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Price, name: price, widget: string }
+
+      - label: Admissions Page
+        name: admissions
+        file: content/admissions.json
+        fields:
+          - { label: Page Title, name: title, widget: string }
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+          - label: Process
+            name: process
+            widget: list
+            fields:
+              - { label: Step Number, name: number, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+          - label: Fees
+            name: fees
+            widget: list
+            fields:
+              - { label: Item, name: item, widget: string }
+              - { label: Price, name: price, widget: string }
+          - label: FAQ
+            name: faq
+            widget: list
+            fields:
+              - { label: Question, name: question, widget: string }
+              - { label: Answer, name: answer, widget: text }
+          - label: Open Days
+            name: open_days
+            widget: list
+            fields:
+              - { label: Date, name: date, widget: string }
+              - { label: Description, name: description, widget: text }
+
+      - label: Contact Page
+        name: contact
+        file: content/contact.json
+        fields:
+          - { label: Page Title, name: title, widget: string }
+          - label: Address
+            name: address
+            widget: object
+            fields:
+              - { label: Line 1, name: line1, widget: string }
+              - { label: Line 2, name: line2, widget: string }
+              - { label: Line 3, name: line3, widget: string }
+          - label: Contact Details
+            name: contact
+            widget: object
+            fields:
+              - { label: Phone, name: phone, widget: string }
+              - { label: WhatsApp, name: whatsapp, widget: string }
+              - { label: Email, name: email, widget: string }
+          - label: Hours
+            name: hours
+            widget: object
+            fields:
+              - { label: Monday–Thursday, name: weekdays, widget: string }
+              - { label: Friday, name: friday, widget: string }
+              - { label: Enrichment, name: enrichment, widget: string }
+          - label: Map Embed URL
+            name: map_url
+            widget: string
+
+      - label: Gallery Page
+        name: gallery
+        file: content/gallery.json
+        fields:
+          - { label: Page Title, name: title, widget: string }
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+          - label: Categories
+            name: categories
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+          - label: Images
+            name: images
+            widget: list
+            fields:
+              - { label: Image, name: src, widget: image }
+              - { label: Caption, name: caption, widget: string }
+              - { label: Category, name: category, widget: string }
+
+      - label: Facilities Page
+        name: facilities
+        file: content/facilities.json
+        fields:
+          - { label: Page Title, name: title, widget: string }
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+          - label: Facilities
+            name: items
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Image, name: image, widget: image }
+
+  - name: settings
+    label: Site Settings
+    files:
+      - label: General
+        name: general
+        file: content/settings.json
+        fields:
+          - { label: Site Name, name: site_name, widget: string }
+          - { label: Tagline, name: tagline, widget: string }
+          - label: Social Links
+            name: social
+            widget: object
+            fields:
+              - { label: Facebook, name: facebook, widget: string }
+              - { label: Instagram, name: instagram, widget: string }
+              - { label: TikTok, name: tiktok, widget: string }
+              - { label: YouTube, name: youtube, widget: string }
+          - { label: WhatsApp Number, name: whatsapp, widget: string }
+          - { label: Meta Description, name: meta_description, widget: text }

@@ -1,0 +1,39 @@
+{
+  "title": "Admissions | Edusky Private School",
+  "hero": {
+    "title": "Join Edusky",
+    "subtitle": "2026 enrollment is open. Here is everything you need to know — clearly, honestly, with no hidden surprises."
+  },
+  "process": [
+    { "number": "1", "title": "Discover", "description": "WhatsApp, call, or fill the inquiry form. Tell us your child's age and what you need." },
+    { "number": "2", "title": "Visit", "description": "Tour the campus. Meet Dr. Sean. See classrooms, labs, and the small-class magic." },
+    { "number": "3", "title": "Trial Week", "description": "Your child joins real classes for a week. No commitment. Just experience." },
+    { "number": "4", "title": "Apply", "description": "Submit birth cert, IC, photos, previous reports. We send the full checklist." },
+    { "number": "5", "title": "Enrol", "description": "Sign the registration form. Pay the fee. Your child is officially an Edusky student." },
+    { "number": "6", "title": "Start", "description": "Uniform fitting, orientation day, first week check-in. We do not drop you after signup." }
+  ],
+  "fees": [
+    { "item": "Registration Fee", "details": "One-time, non-refundable", "price": "200" },
+    { "item": "Security Deposit", "details": "Refundable with one-term notice", "price": "800 – 1,200" },
+    { "item": "Monthly Tuition", "details": "Per month, all standards", "price": "1,000" },
+    { "item": "Laboratory Fee", "details": "Annual", "price": "300" },
+    { "item": "School Uniform", "details": "Set of 5 pcs", "price": "800 – 1,200" },
+    { "item": "Extracurricular Fee", "details": "Annual, by programme", "price": "300 – 600" },
+    { "item": "December Fee", "details": "Special term fee", "price": "1,000 – 1,300" }
+  ],
+  "faq": [
+    { "question": "What curriculum does Edusky follow?", "answer": "We follow the KSSR (Kurikulum Standard Sekolah Rendah), Malaysia's national primary curriculum approved by the Ministry of Education. Our SMIPS registration code is JDA1001." },
+    { "question": "What are the school hours?", "answer": "School runs Mon–Thu 8:30 AM – 1:00 PM with Enrichment 2:00 PM – 4:00 PM, and Fri 8:30 AM – 12:00 PM." },
+    { "question": "What is the maximum class size?", "answer": "We maintain a maximum teacher-student ratio of approximately 1:15. This is core to our philosophy — every child is known individually, taught personally, and supported fully." },
+    { "question": "Does Edusky accept children who need extra support?", "answer": "Yes. We are an intentionally small school, which means teachers have the time and space to understand each child individually. Children who learn at a different pace often thrive here." },
+    { "question": "What ages does Edusky accept?", "answer": "Standard 1 through Standard 6, typically ages 7 to 12." },
+    { "question": "Is there a trial period?", "answer": "Yes. We offer a trial week — your child attends real classes before you make any long-term commitment." },
+    { "question": "How do I pay fees?", "answer": "Fees can be paid by bank transfer, cheque, or online banking. We issue official receipts for all payments." },
+    { "question": "Is there after-school care?", "answer": "Enrichment programmes and after-school tuition are available on-site for children who stay beyond regular hours." }
+  ],
+  "open_days": [
+    { "date": "12 July 2026", "description": "Saturday morning tour. Meet teachers, see classrooms, ask questions. No appointment needed." },
+    { "date": "15 August 2026", "description": "Enrolment clinic. Bring documents, get on-the-spot assessment, and secure a place for 2026." },
+    { "date": "5 September 2026", "description": "Student-led campus tour. See the school through the eyes of current students." }
+  ]
+}

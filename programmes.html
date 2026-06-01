@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-field="title">Programmes | Edusky Private School</title>
+<meta name="description" content="KSSR national curriculum for Standards 1-6. Subjects, enrichment programmes, and holiday camps.">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/cms.js" defer></script>
+</head>
+<body data-content="programmes">
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="images/logo.webp" alt="Edusky Logo" onerror="this.style.display='none'">
+      <span>Edusky Private School</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="programmes.html" class="active">Programmes</a></li>
+      <li><a href="admissions.html">Admissions</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="facilities.html">Facilities</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="admissions.html" class="nav-cta">Enrol Now</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">&#9776;</button>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="programmes.html">Programmes</a>
+  <a href="admissions.html">Admissions</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="facilities.html">Facilities</a>
+  <a href="contact.html">Contact</a>
+  <a href="admissions.html" class="mobile-cta">Enrol Now</a>
+</div>
+
+<section class="page-hero">
+  <div class="page-hero-content">
+    <h1 data-field="hero.title">Programmes</h1>
+    <p data-field="hero.subtitle">KSSR national curriculum, enrichment, and beyond — a complete education ecosystem.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="section-label" data-field="primary.label">Primary School</p>
+    <h2 class="section-title" data-field="primary.title">KSSR National Curriculum</h2>
+    <p class="section-subtitle" data-field="primary.description">Edusky follows the Kurikulum Standard Sekolah Rendah (KSSR) — Malaysia's national primary school curriculum, approved by the Ministry of Education. Our SMIPS registration code is JDA1001.</p>
+    <div class="grid-3" style="margin-top:36px" data-list="primary.subjects">
+      <div class="card" data-item style="padding:24px">
+        <div class="card-icon sky" data-field="icon">📖</div>
+        <h3 data-field="name">Bahasa Melayu</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-sunrise-soft">
+  <div class="container">
+    <p class="section-label" data-field="enrichment.label">Enrichment</p>
+    <h2 class="section-title" data-field="enrichment.title">After-School & Holiday Programmes</h2>
+    <p class="section-subtitle" data-field="enrichment.description">Open to Edusky students and the wider community. All programmes run on-site at our Taman Adda Height campus.</p>
+    <div class="grid-3" style="margin-top:36px" data-list="enrichment.activities">
+      <div class="card" data-item style="padding:24px">
+        <div class="card-icon sky" data-field="icon">📚</div>
+        <h3 data-field="name">After-School Tuition</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="section-label">Holiday Camps</p>
+    <h2 class="section-title">School Holiday Experiences</h2>
+    <div class="grid-3" style="margin-top:32px" data-list="camps">
+      <div class="card" data-item style="padding:28px">
+        <h3 data-field="name">Young Leaders Camp</h3>
+        <p data-field="description">Public speaking, team challenges, and a final showcase.</p>
+        <p style="color:var(--sky);font-weight:700;margin-top:12px" data-field="price">RM 150–300 / child</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><div class="footer-brand">Edusky Private School</div><p>Small by design. Big on heart.</p></div>
+      <div><h4>Quick Links</h4><p><a href="about.html">About</a></p><p><a href="programmes.html">Programmes</a></p><p><a href="admissions.html">Admissions</a></p></div>
+      <div><h4>Contact</h4><p>71, Jalan Adda 3/1, Taman Adda Height, 81100 Johor Bahru</p><p><a href="tel:+6073642678">07-364 2678</a></p></div>
+      <div><h4>Follow</h4><p><a href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p><p><a href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Edusky Private School.</span><span>Built with hope for every child.</span></div>
+  </div>
+</footer>
+
+<a href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+<script>
+const navToggle=document.getElementById('navToggle'),mobileNav=document.getElementById('mobileNav');
+if(navToggle&&mobileNav){navToggle.addEventListener('click',()=>mobileNav.classList.toggle('open'));mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileNav.classList.remove('open')));}
+</script>
+</body>
+</html>

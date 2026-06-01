@@ -1,0 +1,48 @@
+{
+  "title": "Edusky Private School | Small by Design. Big on Heart.",
+  "hero": {
+    "badge": "Johor Bahru · Est. 2014 · Better One's Life",
+    "title1": "Small by Design.",
+    "title2": "Big on Heart.",
+    "description": "An intentional micro-school where every child is known by name — not by roll number.",
+    "image": "images/school-building.jpg",
+    "cta_primary": "Enrol for 2026",
+    "cta_primary_link": "admissions.html",
+    "cta_secondary": "Discover Our Story",
+    "cta_secondary_link": "about.html"
+  },
+  "philosophy": {
+    "label": "Our Philosophy",
+    "title": "We are small because we choose to be",
+    "subtitle": "Globally, the micro-school movement is growing. Parents are seeking intimate learning communities — places where relationships matter more than rankings.",
+    "cards": [
+      { "icon": "★", "title": "Every Child Known", "text": "No child falls through the cracks. Our teachers know each student's strengths, challenges, interests, and learning style — personally, not from a file." },
+      { "icon": "♥", "title": "Individual Attention", "text": "Every child develops at their own pace. Our small classes give teachers the time to understand each student personally — their strengths, their challenges, and what makes them light up." },
+      { "icon": "🌱", "title": "Community-Embedded", "text": "CSR projects, parent workshops, expert talks, student volunteering — a mega-school runs events. A micro-school builds community." }
+    ]
+  },
+  "programmes": {
+    "label": "Programmes",
+    "title": "More than one classroom",
+    "subtitle": "Edusky operates multiple service lines under one roof. Every programme feeds into every other — a complete education ecosystem.",
+    "items": [
+      { "title": "Primary School (Std 1–6)", "description": "KSSR national curriculum with English emphasis. Small classes, personalised attention, holistic development.", "link": "programmes.html", "icon": "🎓" },
+      { "title": "Tuition & Enrichment", "description": "After-school tuition, homework support, and enrichment programmes. Holiday camps, creative arts — open to Edusky and non-Edusky students.", "link": "programmes.html", "icon": "📚" }
+    ]
+  },
+  "stats": [
+    { "value": "10+", "label": "Years Operating" },
+    { "value": "1:15", "label": "Teacher-Student Ratio" },
+    { "value": "KSSR", "label": "MOE-Registered Curriculum" },
+    { "value": "SMIPS JDA1001", "label": "Registered Institution" }
+  ],
+  "cta": {
+    "label": "2026 Enrollment",
+    "title": "Your child deserves to be known, not counted",
+    "subtitle": "Come visit us. Meet our teachers. Sit in a class. See what small feels like.",
+    "btn1": "Start Enrollment",
+    "btn1_link": "admissions.html",
+    "btn2": "Visit Us",
+    "btn2_link": "contact.html"
+  }
+}

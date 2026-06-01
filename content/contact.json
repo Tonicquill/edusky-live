@@ -1,0 +1,23 @@
+{
+  "title": "Contact Us | Edusky Private School",
+  "hero": {
+    "title": "Get in Touch",
+    "subtitle": "We reply within the hour on WhatsApp. Call or email us anytime."
+  },
+  "address": {
+    "line1": "71, Jalan Adda 3/1",
+    "line2": "Taman Adda Height",
+    "line3": "81100 Johor Bahru, Johor"
+  },
+  "contact": {
+    "phone": "07-364 2678",
+    "whatsapp": "016-773 3518",
+    "email": "eduskyacademy@gmail.com"
+  },
+  "hours": {
+    "weekdays": "Mon–Thu 8:30 AM – 1:00 PM",
+    "friday": "Fri 8:30 AM – 12:00 PM",
+    "enrichment": "Enrichment 2:00 PM – 4:00 PM"
+  },
+  "map_url": "https://www.google.com/maps?q=71+Jalan+Adda+3%2F1+Taman+Adda+Heights+81100+Johor+Bahru&output=embed"
+}

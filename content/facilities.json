@@ -1,0 +1,18 @@
+{
+  "title": "Facilities | Edusky Private School",
+  "hero": {
+    "title": "Facilities",
+    "subtitle": "Purpose-built spaces designed for small-group learning, hands-on discovery, and community gathering."
+  },
+  "items": [
+    { "name": "Computer Lab", "description": "Modern computing facilities for digital literacy and ICT lessons. Students build confidence with technology from an early age.", "image": "images/facilities/computer-lab.jpg" },
+    { "name": "Science Lab", "description": "Hands-on experiments and inquiry-based learning in an equipped lab. Students learn by doing — not just watching.", "image": "images/facilities/science-lab.jpg" },
+    { "name": "Discussion Room", "description": "Small-group spaces for collaborative learning and peer discussion. Where ideas are shared and confidence is built.", "image": "images/facilities/discussion-room.jpg" },
+    { "name": "Hall", "description": "Multi-purpose space for assemblies, performances, and gatherings. Concerts, celebrations, and community events happen here.", "image": "images/facilities/hall.jpg" },
+    { "name": "Library", "description": "Reading resources and quiet study space for all students. A place to explore, imagine, and discover independently.", "image": "images/facilities/library.jpg" },
+    { "name": "Main Lobby", "description": "Welcoming entrance and reception area for parents and visitors. First impressions matter — ours is warm and intentional.", "image": "images/facilities/main-lobby.jpg" },
+    { "name": "Classroom", "description": "Bright, air-conditioned spaces designed for small-group learning. Every child sits close enough to ask a question.", "image": "images/facilities/classroom.jpg" },
+    { "name": "Surau", "description": "Prayer space supporting spiritual development and religious observance. Respect and inclusion woven into daily life.", "image": "images/facilities/surau.jpg" },
+    { "name": "Outdoor Space", "description": "Open-air area for physical activity, play, and outdoor learning. Fresh air and movement between lessons.", "image": "images/facilities/outdoor.jpg" }
+  ]
+}

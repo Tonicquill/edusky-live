@@ -1,0 +1,39 @@
+{
+  "title": "Programmes | Edusky Private School",
+  "hero": {
+    "title": "Programmes",
+    "subtitle": "KSSR national curriculum, enrichment, and beyond — a complete education ecosystem."
+  },
+  "primary": {
+    "label": "Primary School",
+    "title": "KSSR National Curriculum",
+    "description": "Edusky follows the Kurikulum Standard Sekolah Rendah (KSSR) — Malaysia's national primary school curriculum, approved by the Ministry of Education. Our SMIPS registration code is JDA1001. Medium of instruction: Bahasa Malaysia with English.",
+    "subjects": [
+      { "name": "Bahasa Melayu", "icon": "📖" },
+      { "name": "English", "icon": "🌍" },
+      { "name": "Mathematics", "icon": "🔢" },
+      { "name": "Science", "icon": "🔬" },
+      { "name": "Sejarah", "icon": "🗺️" },
+      { "name": "Pendidikan Seni", "icon": "🎨" },
+      { "name": "PJK (Physical Education)", "icon": "🏃" },
+      { "name": "Pendidikan Moral", "icon": "💻" }
+    ]
+  },
+  "enrichment": {
+    "label": "Enrichment",
+    "title": "After-School & Holiday Programmes",
+    "description": "Open to Edusky students and the wider community. All programmes run on-site at our Taman Adda Height campus.",
+    "activities": [
+      { "name": "After-School Tuition", "icon": "📚" },
+      { "name": "Homework Support", "icon": "✏️" },
+      { "name": "Public Speaking", "icon": "🎤" },
+      { "name": "Creative Arts", "icon": "🎨" },
+      { "name": "Environmental Studies", "icon": "🌿" },
+      { "name": "Creative Thinking", "icon": "🧠" }
+    ]
+  },
+  "camps": [
+    { "name": "Young Leaders Camp", "description": "Public speaking, team challenges, community service project, certificate ceremony. School holidays.", "price": "RM 150–300 / child / week" },
+    { "name": "Creative Arts Week", "description": "Drawing, drama, music, final showcase performance. Open to ages 7–14.", "price": "RM 150–300 / child / week" }
+  ]
+}
