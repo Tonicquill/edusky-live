@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: Tonicquill/edusky-live
-  branch: main
+  branch: master
   base_url: https://Tonicquill.github.io
   auth_endpoint: /edusky-live/admin/
 

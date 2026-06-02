@@ -6,7 +6,7 @@
   },
   "process": [
     { "number": "1", "title": "Discover", "description": "WhatsApp, call, or fill the inquiry form. Tell us your child's age and what you need." },
-    { "number": "2", "title": "Visit", "description": "Tour the campus. Meet Dr. Sean. See classrooms, labs, and the small-class magic." },
+    { "number": "2", "title": "Visit", "description": "Tour the campus. Meet Dr. Ng. See classrooms, labs, and the small-class magic." },
     { "number": "3", "title": "Trial Week", "description": "Your child joins real classes for a week. No commitment. Just experience." },
     { "number": "4", "title": "Apply", "description": "Submit birth cert, IC, photos, previous reports. We send the full checklist." },
     { "number": "5", "title": "Enrol", "description": "Sign the registration form. Pay the fee. Your child is officially an Edusky student." },

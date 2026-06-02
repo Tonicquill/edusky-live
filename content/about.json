@@ -15,10 +15,10 @@
     "text": "We strive to accomplish academic excellence and a higher standard of living for every student. Our goal is delivering a holistic education that combines strong academics with deep character development, preparing students for success in personal and professional life."
   },
   "founder": {
-    "name": "Dr. Sean Ng",
-    "role": "Founder & Principal",
-    "bio": "Dr. Sean is an orthopaedic surgeon who trained at Singapore General Hospital and the National University of Singapore. He founded Edusky in 2014 with one classroom and a conviction born from watching too many children shrink in oversized classrooms where compliance was valued over curiosity. He wanted a place where every child could learn at their own pace, where a parent could walk in unannounced and be greeted by name, and where success was measured by a child's willingness to show up each morning excited to learn.",
-    "photo": "images/dr-sean-ng.jpg"
+    "name": "Dr. Ng Peng Long",
+    "role": "Founder & Director",
+    "bio": "Dr. Ng Peng Long holds a PhD in Marketing from Universiti Sains Malaysia and brings more than two decades of senior leadership in education and training. He spent seventeen years as a Director at Wawasan Open University, served as Deputy CEO of Austin Legacy Education (Asia Metropolitan University), and is currently CEO of Lead Future Holdings Sdn Bhd, where he leads work in talent development, training, certification, and ESG. Under his leadership, Edusky was built on a simple belief: that small classes, strong relationships, and a parent's ability to walk in unannounced and be greeted by name are not luxuries — they are the foundation of how children learn best. His vision for the school is rooted in collaboration, inclusivity, and academic excellence that prepares students to thrive in life, not just in exams.",
+    "photo": "images/dr-ng-peng-long.jpg"
   },
   "values": [
     { "icon": "★", "title": "Known by Name", "description": "No child falls through the cracks. Our teachers know each student's strengths, challenges, interests, and learning style — personally, not from a file." },
@@ -27,7 +27,7 @@
     { "icon": "🤝", "title": "Rooted in Community", "description": "Strong relationships between students, teachers, and parents. CSR projects, parent workshops, expert talks, and student volunteering — a community built together, not an institution run from above." }
   ],
   "timeline": [
-    { "year": "2014", "title": "Foundation", "description": "Edusky Learning Academy founded by Dr. Sean Ng. A single classroom with a conviction: every child deserves to be known." },
+    { "year": "2014", "title": "Foundation", "description": "Edusky Learning Academy founded. A single classroom with a conviction: every child deserves to be known." },
     { "year": "2016", "title": "Expansion", "description": "Expanded to multi-standard primary. First cohort of Standard 1–6 students." },
     { "year": "2019", "title": "Upgrade", "description": "Facilities upgraded. Chinese investor delegation visits and positively assesses campus." },
     { "year": "2022", "title": "Registration", "description": "Rebranded as Edusky Private School. SMIPS registration JDA1001. MOE-registered KSSR curriculum." },
