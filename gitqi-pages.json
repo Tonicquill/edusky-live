@@ -1,0 +1,19 @@
+{
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Edusky Private School | Small by Design. Big on Heart.",
+      "navLabel": "Edusky Private School | Small by Design. Big on Heart."
+    },
+    {
+      "file": "gallery.html",
+      "title": "Gallery | Edusky Private School",
+      "navLabel": "Gallery | Edusky Private School"
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact Us | Edusky Private School",
+      "navLabel": "Contact Us | Edusky Private School"
+    }
+  ]
+}

@@ -246,8 +246,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 .gallery-item { break-inside: avoid; margin-bottom: 16px; border-radius: 12px; overflow: hidden; position: relative; cursor: pointer; }
 .gallery-item img { width: 100%; display: block; transition: transform 0.3s; }
 .gallery-item:hover img { transform: scale(1.04); }
-.gallery-cap { position: absolute; bottom: 0; left: 0; right: 0; padding: 16px; background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, transparent 100%); color: #fff; font-size: 13px; font-family: var(--font-display); opacity: 0; transition: opacity 0.3s; }
-.gallery-item:hover .gallery-cap { opacity: 1; }
+.gallery-cap { position: absolute; bottom: 0; left: 0; right: 0; padding: 16px; background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, transparent 100%); color: #fff; font-size: 13px; font-family: var(--font-display); }
 
 /* ----- TABLE ----- */
 .table-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid var(--gray-border); }
