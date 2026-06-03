@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title data-field="title">Edusky Private School | Small by Design. Big on Heart.</title>
+<title class="editable">Edusky Private School | Small by Design. Big on Heart.</title>
 <meta name="description" content="Edusky Private School — Sekolah rendah swasta di Taman Adda Height, Johor Bahru. KSSR curriculum, small class sizes 1:15, individual attention.">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
-<script src="assets/cms.js" defer></script>
+<script src="assets/shared.js" defer></script>
 </head>
-<body data-content="home">
+<body data-page="home">
 
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-brand">
       <img src="images/logo.webp" alt="Edusky Logo" onerror="this.style.display='none'">
-      <span data-field="site_name">Edusky Private School</span>
+      <span data-shared="brand_name">Edusky Private School</span>
     </a>
     <ul class="nav-links">
       <li><a href="index.html" class="active">Home</a></li>
@@ -45,19 +45,19 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-bg">
-    <img data-field="hero.image" data-type="image" src="images/school-building.jpg" alt="Edusky School">
+    <img src="images/school-building.jpg" alt="Edusky School" class="editable-img">
   </div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <p class="hero-badge" data-field="hero.badge">Johor Bahru &middot; Est. 2014 &middot; Better One's Life</p>
+    <p class="hero-badge editable">Johor Bahru &middot; Est. 2014 &middot; Better One's Life</p>
     <h1 class="hero-title">
-      <span data-field="hero.title1">Small by Design.</span><br>
-      <span data-field="hero.title2" style="color:var(--sunrise)">Big on Heart.</span>
+      <span class="editable">Small by Design.</span><br>
+      <span class="editable" style="color:var(--sunrise)">Big on Heart.</span>
     </h1>
-    <p class="hero-desc" data-field="hero.description">An intentional micro-school where every child is known by name — not by roll number.</p>
+    <p class="hero-desc editable">An intentional micro-school where every child is known by name — not by roll number.</p>
     <div class="hero-actions">
-      <a data-field="hero.cta_primary_link" href="admissions.html" class="btn btn-primary">Enrol for 2026</a>
-      <a data-field="hero.cta_secondary_link" href="about.html" class="btn btn-white">Discover Our Story</a>
+      <a href="admissions.html" class="btn btn-primary editable">Enrol for 2026</a>
+      <a href="about.html" class="btn btn-white editable">Discover Our Story</a>
     </div>
   </div>
 </section>
@@ -65,15 +65,25 @@
 <!-- PHILOSOPHY -->
 <section class="section">
   <div class="container">
-    <p class="section-label" data-field="philosophy.label">Our Philosophy</p>
-    <h2 class="section-title" data-field="philosophy.title">We are small because we choose to be</h2>
-    <p class="section-subtitle" data-field="philosophy.subtitle">Globally, the micro-school movement is growing. Parents are seeking intimate learning communities — places where relationships matter more than rankings.</p>
+    <p class="section-label editable">Our Philosophy</p>
+    <h2 class="section-title editable">We are small because we choose to be</h2>
+    <p class="section-subtitle editable">Globally, the micro-school movement is growing. Parents are seeking intimate learning communities — places where relationships matter more than rankings.</p>
 
-    <div class="grid-3" style="margin-top:48px" data-list="philosophy.cards">
-      <div class="card" data-item>
-        <div class="card-icon sunrise" data-field="icon">&#9733;</div>
-        <h3 data-field="title">Every Child Known</h3>
-        <p data-field="text">No child falls through the cracks. Our teachers know each student's strengths, challenges, interests, and learning style — personally, not from a file.</p>
+    <div class="grid-3" style="margin-top:48px" data-cms-repeatable>
+      <div class="card">
+        <div class="card-icon sunrise editable">&#9733;</div>
+        <h3 class="editable">Every Child Known</h3>
+        <p class="editable">No child falls through the cracks. Our teachers know each student's strengths, challenges, interests, and learning style — personally, not from a file.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon sunrise editable">&#9829;</div>
+        <h3 class="editable">Individual Attention</h3>
+        <p class="editable">Every child develops at their own pace. Our small classes give teachers the time to understand each student personally — their strengths, their challenges, and what makes them light up.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon sunrise editable">&#127793;</div>
+        <h3 class="editable">Community-Embedded</h3>
+        <p class="editable">CSR projects, parent workshops, expert talks, student volunteering — a mega-school runs events. A micro-school builds community.</p>
       </div>
     </div>
   </div>
@@ -82,16 +92,22 @@
 <!-- PROGRAMMES PREVIEW -->
 <section class="section bg-sky-soft">
   <div class="container">
-    <p class="section-label" data-field="programmes.label">Programmes</p>
-    <h2 class="section-title" data-field="programmes.title">More than one classroom</h2>
-    <p class="section-subtitle" data-field="programmes.subtitle">Edusky operates multiple service lines under one roof. Every programme feeds into every other — a complete education ecosystem.</p>
+    <p class="section-label editable">Programmes</p>
+    <h2 class="section-title editable">More than one classroom</h2>
+    <p class="section-subtitle editable">Edusky operates multiple service lines under one roof. Every programme feeds into every other — a complete education ecosystem.</p>
 
-    <div class="grid-2" style="margin-top:48px" data-list="programmes.items">
-      <div class="card" data-item>
-        <div class="card-icon sky" data-field="icon">&#127891;</div>
-        <h3 data-field="title">Primary School (Std 1–6)</h3>
-        <p data-field="description">KSSR national curriculum with English emphasis. Small classes, personalised attention, holistic development.</p>
-        <a data-field="link" href="programmes.html" class="badge badge-sky" style="margin-top:12px">Learn More &rarr;</a>
+    <div class="grid-2" style="margin-top:48px" data-cms-repeatable>
+      <div class="card">
+        <div class="card-icon sky editable">&#127891;</div>
+        <h3 class="editable">Primary School (Std 1–6)</h3>
+        <p class="editable">KSSR national curriculum with English emphasis. Small classes, personalised attention, holistic development.</p>
+        <a href="programmes.html" class="badge badge-sky editable" style="margin-top:12px">Learn More &rarr;</a>
+      </div>
+      <div class="card">
+        <div class="card-icon sky editable">&#128218;</div>
+        <h3 class="editable">Tuition & Enrichment</h3>
+        <p class="editable">After-school tuition, homework support, and enrichment programmes. Holiday camps, creative arts — open to Edusky and non-Edusky students.</p>
+        <a href="programmes.html" class="badge badge-sky editable" style="margin-top:12px">Learn More &rarr;</a>
       </div>
     </div>
   </div>
@@ -100,10 +116,22 @@
 <!-- STATS -->
 <section class="section bg-sunrise-soft">
   <div class="container">
-    <div class="stats-bar" data-list="stats">
-      <div class="stat-item" data-item>
-        <div class="stat-val" data-field="value">10+</div>
-        <div class="stat-label" data-field="label">Years Operating</div>
+    <div class="stats-bar" data-cms-repeatable>
+      <div class="stat-item">
+        <div class="stat-val editable">10+</div>
+        <div class="stat-label editable">Years Operating</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-val editable">1:15</div>
+        <div class="stat-label editable">Teacher-Student Ratio</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-val editable">KSSR</div>
+        <div class="stat-label editable">MOE-Registered Curriculum</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-val editable">SMIPS JDA1001</div>
+        <div class="stat-label editable">Registered Institution</div>
       </div>
     </div>
   </div>
@@ -112,12 +140,12 @@
 <!-- CTA -->
 <section class="section bg-dark">
   <div class="container section-center">
-    <p class="section-label" data-field="cta.label">2026 Enrollment</p>
-    <h2 class="section-title" style="color:#fff" data-field="cta.title">Your child deserves to be known, not counted</h2>
-    <p class="section-subtitle" style="color:rgba(255,255,255,0.7)" data-field="cta.subtitle">Come visit us. Meet our teachers. Sit in a class. See what small feels like.</p>
+    <p class="section-label editable">2026 Enrollment</p>
+    <h2 class="section-title editable" style="color:#fff">Your child deserves to be known, not counted</h2>
+    <p class="section-subtitle editable" style="color:rgba(255,255,255,0.7)">Come visit us. Meet our teachers. Sit in a class. See what small feels like.</p>
     <div class="hero-actions" style="justify-content:center;margin-top:32px">
-      <a data-field="cta.btn1_link" href="admissions.html" class="btn btn-primary">Start Enrollment</a>
-      <a data-field="cta.btn2_link" href="contact.html" class="btn btn-white">Visit Us</a>
+      <a href="admissions.html" class="btn btn-primary editable">Start Enrollment</a>
+      <a href="contact.html" class="btn btn-white editable">Visit Us</a>
     </div>
   </div>
 </section>
@@ -127,9 +155,9 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <div class="footer-brand">Edusky Private School</div>
-        <p>An intentional micro-school in Taman Adda Height, Johor Bahru. Small by design. Big on heart.</p>
-        <p style="font-size:11px;color:var(--gray-light)">SMIPS Code: JDA1001 &middot; MOE-Registered</p>
+        <div class="footer-brand" data-shared="footer_brand">Edusky Private School</div>
+        <p data-shared="footer_tagline">An intentional micro-school in Taman Adda Height, Johor Bahru. Small by design. Big on heart.</p>
+        <p style="font-size:11px;color:var(--gray-light)">SMIPS Code: <span data-shared="smips_code">JDA1001</span> &middot; MOE-Registered</p>
       </div>
       <div>
         <h4>Quick Links</h4>
@@ -141,35 +169,34 @@
       </div>
       <div>
         <h4>Contact</h4>
-        <p>71, Jalan Adda 3/1<br>Taman Adda Height<br>81100 Johor Bahru, Johor</p>
-        <p><a href="tel:+6073642678">07-364 2678</a></p>
-        <p><a href="https://wa.me/60167733518">016-773 3518</a></p>
-        <p><a href="mailto:eduskyacademy@gmail.com">eduskyacademy@gmail.com</a></p>
+        <p data-shared="footer_address">71, Jalan Adda 3/1<br>Taman Adda Height<br>81100 Johor Bahru, Johor</p>
+        <p><a data-shared="footer_phone" href="tel:+6073642678"><span data-shared="footer_phone_text">07-364 2678</span></a></p>
+        <p><a data-shared="footer_whatsapp" href="https://wa.me/60167733518"><span data-shared="footer_whatsapp_text">016-773 3518</span></a></p>
+        <p><a data-shared="footer_email" href="mailto:eduskyacademy@gmail.com"><span data-shared="footer_email_text">eduskyacademy@gmail.com</span></a></p>
       </div>
       <div>
         <h4>Follow Us</h4>
-        <p><a href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p>
-        <p><a href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p>
-        <p><a href="https://www.tiktok.com/@eduskyprivateschool" target="_blank">TikTok</a></p>
-        <p><a href="https://www.youtube.com/@eduskylearningacademy6728" target="_blank">YouTube</a></p>
+        <p><a data-shared="social_facebook" href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p>
+        <p><a data-shared="social_instagram" href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p>
+        <p><a data-shared="social_tiktok" href="https://www.tiktok.com/@eduskyprivateschool" target="_blank">TikTok</a></p>
+        <p><a data-shared="social_youtube" href="https://www.youtube.com/@eduskylearningacademy6728" target="_blank">YouTube</a></p>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; 2026 Edusky Private School. All rights reserved.</span>
-      <span>Built with hope for every child.</span>
+      <span data-shared="footer_copyright">&copy; 2026 Edusky Private School. All rights reserved.</span>
+      <span data-shared="footer_built">Built with hope for every child.</span>
     </div>
   </div>
 </footer>
 
-<a href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+<a data-shared="whatsapp_link" href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
 
 <script>
-// Mobile nav toggle
-const navToggle = document.getElementById('navToggle');
-const mobileNav = document.getElementById('mobileNav');
+var navToggle = document.getElementById('navToggle');
+var mobileNav = document.getElementById('mobileNav');
 if (navToggle && mobileNav) {
-  navToggle.addEventListener('click', () => mobileNav.classList.toggle('open'));
-  mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('open')));
+  navToggle.addEventListener('click', function() { mobileNav.classList.toggle('open'); });
+  mobileNav.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', function() { mobileNav.classList.remove('open'); }); });
 }
 </script>
 

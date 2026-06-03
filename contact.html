@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title data-field="title">Contact Us | Edusky Private School</title>
+<title class="editable">Contact Us | Edusky Private School</title>
 <meta name="description" content="Visit Edusky Private School in Taman Adda Height, Johor Bahru. Call, WhatsApp, email, or visit us.">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
-<script src="assets/cms.js" defer></script>
+<script src="assets/shared.js" defer></script>
 </head>
-<body data-content="contact">
+<body data-page="contact">
 
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-brand">
       <img src="images/logo.webp" alt="Edusky Logo" onerror="this.style.display='none'">
-      <span>Edusky Private School</span>
+      <span data-shared="brand_name">Edusky Private School</span>
     </a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
@@ -42,97 +42,133 @@
   <a href="admissions.html" class="mobile-cta">Enrol Now</a>
 </div>
 
+<!-- PAGE HERO -->
 <section class="page-hero">
   <div class="page-hero-content">
-    <h1 data-field="hero.title">Get in Touch</h1>
-    <p data-field="hero.subtitle">We reply within the hour on WhatsApp. Call or email us anytime.</p>
+    <h1 class="editable">Get in Touch</h1>
+    <p class="editable">We reply within the hour on WhatsApp. Call or email us anytime.</p>
   </div>
 </section>
 
+<!-- CONTACT SECTION -->
 <section class="section">
   <div class="container">
     <div class="grid-2" style="gap:56px;align-items:start">
       <div>
-        <p class="section-label">Contact</p>
-        <h2 style="font-size:clamp(26px,3vw,38px);line-height:1.15;margin-bottom:20px">Visit Edusky</h2>
-        <p style="color:var(--gray);line-height:1.7;margin-bottom:32px">Come see what small feels like in person. Tour the classrooms, labs, and facilities. Meet Dr. Ng or a senior teacher.</p>
+        <p class="section-label editable">Contact</p>
+        <h2 class="editable" style="font-size:clamp(26px,3vw,38px);line-height:1.15;margin-bottom:20px">Visit Edusky</h2>
+        <p class="editable" style="color:var(--gray);line-height:1.7;margin-bottom:32px">Come see what small feels like in person. Tour the classrooms, labs, and facilities. Meet Dr. Ng or a senior teacher.</p>
 
         <div style="display:flex;flex-direction:column;gap:20px;margin-bottom:32px">
           <div style="display:flex;gap:14px;align-items:flex-start">
             <div style="width:44px;height:44px;border-radius:12px;background:rgba(74,144,217,0.1);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0">📍</div>
             <div>
               <strong style="display:block;margin-bottom:2px">Address</strong>
-              <p style="font-size:14px;color:var(--gray);line-height:1.6" data-field="address.line1">71, Jalan Adda 3/1</p>
-              <p style="font-size:14px;color:var(--gray);line-height:1.6" data-field="address.line2">Taman Adda Height</p>
-              <p style="font-size:14px;color:var(--gray);line-height:1.6" data-field="address.line3">81100 Johor Bahru, Johor</p>
+              <p class="editable" style="font-size:14px;color:var(--gray);line-height:1.6">71, Jalan Adda 3/1</p>
+              <p class="editable" style="font-size:14px;color:var(--gray);line-height:1.6">Taman Adda Height</p>
+              <p class="editable" style="font-size:14px;color:var(--gray);line-height:1.6">81100 Johor Bahru, Johor</p>
             </div>
           </div>
           <div style="display:flex;gap:14px;align-items:flex-start">
             <div style="width:44px;height:44px;border-radius:12px;background:rgba(249,161,7,0.1);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0">🕐</div>
             <div>
               <strong style="display:block;margin-bottom:2px">School Hours</strong>
-              <p style="font-size:14px;color:var(--gray);line-height:1.6" data-field="hours.weekdays">Mon–Thu 8:30 AM – 1:00 PM</p>
-              <p style="font-size:14px;color:var(--gray);line-height:1.6" data-field="hours.friday">Fri 8:30 AM – 12:00 PM</p>
-              <p style="font-size:14px;color:var(--gray);line-height:1.6" data-field="hours.enrichment">Enrichment 2:00 PM – 4:00 PM</p>
+              <p class="editable" style="font-size:14px;color:var(--gray);line-height:1.6">Mon–Thu 8:30 AM – 1:00 PM</p>
+              <p class="editable" style="font-size:14px;color:var(--gray);line-height:1.6">Fri 8:30 AM – 12:00 PM</p>
+              <p class="editable" style="font-size:14px;color:var(--gray);line-height:1.6">Enrichment 2:00 PM – 4:00 PM</p>
             </div>
           </div>
           <div style="display:flex;gap:14px;align-items:flex-start">
             <div style="width:44px;height:44px;border-radius:12px;background:rgba(74,144,217,0.1);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0">📞</div>
             <div>
               <strong style="display:block;margin-bottom:2px">Phone</strong>
-              <p style="font-size:14px"><a href="tel:+6073642678" data-field="contact.phone">07-364 2678</a></p>
+              <p style="font-size:14px"><a data-shared="footer_phone" href="tel:+6073642678"><span data-shared="footer_phone_text" class="editable">07-364 2678</span></a></p>
             </div>
           </div>
           <div style="display:flex;gap:14px;align-items:flex-start">
             <div style="width:44px;height:44px;border-radius:12px;background:rgba(37,211,102,0.1);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0">💬</div>
             <div>
               <strong style="display:block;margin-bottom:2px">WhatsApp</strong>
-              <p style="font-size:14px"><a href="https://wa.me/60167733518" data-field="contact.whatsapp">016-773 3518</a></p>
+              <p style="font-size:14px"><a data-shared="footer_whatsapp" href="https://wa.me/60167733518"><span data-shared="footer_whatsapp_text" class="editable">016-773 3518</span></a></p>
             </div>
           </div>
           <div style="display:flex;gap:14px;align-items:flex-start">
             <div style="width:44px;height:44px;border-radius:12px;background:rgba(255,107,107,0.1);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0">✉️</div>
             <div>
               <strong style="display:block;margin-bottom:2px">Email</strong>
-              <p style="font-size:14px"><a href="mailto:eduskyacademy@gmail.com" data-field="contact.email">eduskyacademy@gmail.com</a></p>
+              <p style="font-size:14px"><a data-shared="footer_email" href="mailto:eduskyacademy@gmail.com"><span data-shared="footer_email_text" class="editable">eduskyacademy@gmail.com</span></a></p>
             </div>
           </div>
         </div>
       </div>
 
       <div class="card" style="padding:36px">
-        <h3 style="margin-bottom:24px;font-size:20px">Send an Inquiry</h3>
-        <div class="form-group"><label>Parent / Guardian Name *</label><input type="text" placeholder="Your full name"></div>
-        <div class="form-group"><label>Child's Age *</label><input type="text" placeholder="e.g., 8 years old"></div>
-        <div class="form-group"><label>Interested Standard</label><select><option>Select</option><option>Standard 1</option><option>Standard 2</option><option>Standard 3</option><option>Standard 4</option><option>Standard 5</option><option>Standard 6</option></select></div>
-        <div class="form-group"><label>Contact Number *</label><input type="tel" placeholder="e.g., 012-345 6789"></div>
-        <div class="form-group"><label>Message (Optional)</label><textarea placeholder="Tell us anything you'd like us to know..."></textarea></div>
-        <button class="btn btn-sky" style="width:100%">Submit Inquiry</button>
+        <h3 class="editable" style="margin-bottom:24px;font-size:20px">Send an Inquiry</h3>
+        <div class="form-group"><label class="editable">Parent / Guardian Name *</label><input type="text" placeholder="Your full name"></div>
+        <div class="form-group"><label class="editable">Child's Age *</label><input type="text" placeholder="e.g., 8 years old"></div>
+        <div class="form-group"><label class="editable">Interested Standard</label><select><option>Select</option><option>Standard 1</option><option>Standard 2</option><option>Standard 3</option><option>Standard 4</option><option>Standard 5</option><option>Standard 6</option></select></div>
+        <div class="form-group"><label class="editable">Contact Number *</label><input type="tel" placeholder="e.g., 012-345 6789"></div>
+        <div class="form-group"><label class="editable">Message (Optional)</label><textarea placeholder="Tell us anything you'd like us to know..."></textarea></div>
+        <button class="btn btn-sky editable" style="width:100%">Submit Inquiry</button>
       </div>
     </div>
   </div>
 </section>
 
+<!-- MAP -->
 <section style="padding:0">
-  <iframe data-field="map_url" src="https://www.google.com/maps?q=71+Jalan+Adda+3%2F1+Taman+Adda+Heights+81100+Johor+Bahru&output=embed" width="100%" height="400" style="border:0;filter:grayscale(0.2)" allowfullscreen="" loading="lazy" title="Edusky Private School Location"></iframe>
+  <iframe src="https://www.google.com/maps?q=71+Jalan+Adda+3%2F1+Taman+Adda+Heights+81100+Johor+Bahru&output=embed" width="100%" height="400" style="border:0;filter:grayscale(0.2)" allowfullscreen="" loading="lazy" title="Edusky Private School Location"></iframe>
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
-      <div><div class="footer-brand">Edusky Private School</div><p>Small by design. Big on heart.</p></div>
-      <div><h4>Quick Links</h4><p><a href="about.html">About</a></p><p><a href="programmes.html">Programmes</a></p><p><a href="admissions.html">Admissions</a></p></div>
-      <div><h4>Contact</h4><p>71, Jalan Adda 3/1, Taman Adda Height, 81100 Johor Bahru</p><p><a href="tel:+6073642678">07-364 2678</a></p></div>
-      <div><h4>Follow</h4><p><a href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p><p><a href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p></div>
+      <div>
+        <div class="footer-brand" data-shared="footer_brand">Edusky Private School</div>
+        <p data-shared="footer_tagline">An intentional micro-school in Taman Adda Height, Johor Bahru. Small by design. Big on heart.</p>
+        <p style="font-size:11px;color:var(--gray-light)">SMIPS Code: <span data-shared="smips_code">JDA1001</span> &middot; MOE-Registered</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="about.html">About Us</a></p>
+        <p><a href="programmes.html">Programmes</a></p>
+        <p><a href="admissions.html">Admissions</a></p>
+        <p><a href="gallery.html">Gallery</a></p>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p data-shared="footer_address">71, Jalan Adda 3/1<br>Taman Adda Height<br>81100 Johor Bahru, Johor</p>
+        <p><a data-shared="footer_phone" href="tel:+6073642678"><span data-shared="footer_phone_text">07-364 2678</span></a></p>
+        <p><a data-shared="footer_whatsapp" href="https://wa.me/60167733518"><span data-shared="footer_whatsapp_text">016-773 3518</span></a></p>
+        <p><a data-shared="footer_email" href="mailto:eduskyacademy@gmail.com"><span data-shared="footer_email_text">eduskyacademy@gmail.com</span></a></p>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <p><a data-shared="social_facebook" href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p>
+        <p><a data-shared="social_instagram" href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p>
+        <p><a data-shared="social_tiktok" href="https://www.tiktok.com/@eduskyprivateschool" target="_blank">TikTok</a></p>
+        <p><a data-shared="social_youtube" href="https://www.youtube.com/@eduskylearningacademy6728" target="_blank">YouTube</a></p>
+      </div>
     </div>
-    <div class="footer-bottom"><span>&copy; 2026 Edusky Private School.</span><span>Built with hope for every child.</span></div>
+    <div class="footer-bottom">
+      <span data-shared="footer_copyright">&copy; 2026 Edusky Private School. All rights reserved.</span>
+      <span data-shared="footer_built">Built with hope for every child.</span>
+    </div>
   </div>
 </footer>
 
-<a href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+<a data-shared="whatsapp_link" href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+
 <script>
-const navToggle=document.getElementById('navToggle'),mobileNav=document.getElementById('mobileNav');
-if(navToggle&&mobileNav){navToggle.addEventListener('click',()=>mobileNav.classList.toggle('open'));mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileNav.classList.remove('open')));}
+var navToggle = document.getElementById('navToggle');
+var mobileNav = document.getElementById('mobileNav');
+if (navToggle && mobileNav) {
+  navToggle.addEventListener('click', function() { mobileNav.classList.toggle('open'); });
+  mobileNav.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', function() { mobileNav.classList.remove('open'); }); });
+}
 </script>
+
 </body>
 </html>

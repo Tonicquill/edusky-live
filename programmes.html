@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title data-field="title">Programmes | Edusky Private School</title>
+<title class="editable">Programmes | Edusky Private School</title>
 <meta name="description" content="KSSR national curriculum for Standards 1-6. Subjects, enrichment programmes, and holiday camps.">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
-<script src="assets/cms.js" defer></script>
+<script src="assets/shared.js" defer></script>
 </head>
-<body data-content="programmes">
+<body data-page="programmes">
 
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-brand">
       <img src="images/logo.webp" alt="Edusky Logo" onerror="this.style.display='none'">
-      <span>Edusky Private School</span>
+      <span data-shared="brand_name">Edusky Private School</span>
     </a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
@@ -42,71 +42,161 @@
   <a href="admissions.html" class="mobile-cta">Enrol Now</a>
 </div>
 
+<!-- PAGE HERO -->
 <section class="page-hero">
   <div class="page-hero-content">
-    <h1 data-field="hero.title">Programmes</h1>
-    <p data-field="hero.subtitle">KSSR national curriculum, enrichment, and beyond — a complete education ecosystem.</p>
+    <h1 class="editable">Programmes</h1>
+    <p class="editable">KSSR national curriculum, enrichment, and beyond — a complete education ecosystem.</p>
   </div>
 </section>
 
+<!-- PRIMARY SCHOOL -->
 <section class="section">
   <div class="container">
-    <p class="section-label" data-field="primary.label">Primary School</p>
-    <h2 class="section-title" data-field="primary.title">KSSR National Curriculum</h2>
-    <p class="section-subtitle" data-field="primary.description">Edusky follows the Kurikulum Standard Sekolah Rendah (KSSR) — Malaysia's national primary school curriculum, approved by the Ministry of Education. Our SMIPS registration code is JDA1001.</p>
-    <div class="grid-3" style="margin-top:36px" data-list="primary.subjects">
-      <div class="card" data-item style="padding:24px">
-        <div class="card-icon sky" data-field="icon">📖</div>
-        <h3 data-field="name">Bahasa Melayu</h3>
+    <p class="section-label editable">Primary School</p>
+    <h2 class="section-title editable">KSSR National Curriculum</h2>
+    <p class="section-subtitle editable">Edusky follows the Kurikulum Standard Sekolah Rendah (KSSR) — Malaysia's national primary school curriculum, approved by the Ministry of Education. Our SMIPS registration code is JDA1001. Medium of instruction: Bahasa Malaysia with English.</p>
+    <div class="grid-3" style="margin-top:36px" data-cms-repeatable>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#128214;</div>
+        <h3 class="editable">Bahasa Melayu</h3>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#127758;</div>
+        <h3 class="editable">English</h3>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#128290;</div>
+        <h3 class="editable">Mathematics</h3>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#128300;</div>
+        <h3 class="editable">Science</h3>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#128506;</div>
+        <h3 class="editable">Sejarah</h3>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#127912;</div>
+        <h3 class="editable">Pendidikan Seni</h3>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#127939;</div>
+        <h3 class="editable">PJK (Physical Education)</h3>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#128187;</div>
+        <h3 class="editable">Pendidikan Moral</h3>
       </div>
     </div>
   </div>
 </section>
 
+<!-- ENRICHMENT -->
 <section class="section bg-sunrise-soft">
   <div class="container">
-    <p class="section-label" data-field="enrichment.label">Enrichment</p>
-    <h2 class="section-title" data-field="enrichment.title">After-School & Holiday Programmes</h2>
-    <p class="section-subtitle" data-field="enrichment.description">Open to Edusky students and the wider community. All programmes run on-site at our Taman Adda Height campus.</p>
-    <div class="grid-3" style="margin-top:36px" data-list="enrichment.activities">
-      <div class="card" data-item style="padding:24px">
-        <div class="card-icon sky" data-field="icon">📚</div>
-        <h3 data-field="name">After-School Tuition</h3>
+    <p class="section-label editable">Enrichment</p>
+    <h2 class="section-title editable">After-School & Holiday Programmes</h2>
+    <p class="section-subtitle editable">Open to Edusky students and the wider community. All programmes run on-site at our Taman Adda Height campus.</p>
+    <div class="grid-3" style="margin-top:36px" data-cms-repeatable>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#128218;</div>
+        <h3 class="editable">After-School Tuition</h3>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#9999;</div>
+        <h3 class="editable">Homework Support</h3>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#127908;</div>
+        <h3 class="editable">Public Speaking</h3>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#127912;</div>
+        <h3 class="editable">Creative Arts</h3>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#127807;</div>
+        <h3 class="editable">Environmental Studies</h3>
+      </div>
+      <div class="card" style="padding:24px">
+        <div class="card-icon sky editable">&#129504;</div>
+        <h3 class="editable">Creative Thinking</h3>
       </div>
     </div>
   </div>
 </section>
 
+<!-- HOLIDAY CAMPS -->
 <section class="section">
   <div class="container">
-    <p class="section-label">Holiday Camps</p>
-    <h2 class="section-title">School Holiday Experiences</h2>
-    <div class="grid-3" style="margin-top:32px" data-list="camps">
-      <div class="card" data-item style="padding:28px">
-        <h3 data-field="name">Young Leaders Camp</h3>
-        <p data-field="description">Public speaking, team challenges, and a final showcase.</p>
-        <p style="color:var(--sky);font-weight:700;margin-top:12px" data-field="price">RM 150–300 / child</p>
+    <p class="section-label editable">Holiday Camps</p>
+    <h2 class="section-title editable">School Holiday Experiences</h2>
+    <div class="grid-3" style="margin-top:32px" data-cms-repeatable>
+      <div class="card" style="padding:28px">
+        <h3 class="editable">Young Leaders Camp</h3>
+        <p class="editable">Public speaking, team challenges, community service project, certificate ceremony. School holidays.</p>
+        <p class="editable" style="color:var(--sky);font-weight:700;margin-top:12px">RM 150–300 / child / week</p>
+      </div>
+      <div class="card" style="padding:28px">
+        <h3 class="editable">Creative Arts Week</h3>
+        <p class="editable">Drawing, drama, music, final showcase performance. Open to ages 7–14.</p>
+        <p class="editable" style="color:var(--sky);font-weight:700;margin-top:12px">RM 150–300 / child / week</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
-      <div><div class="footer-brand">Edusky Private School</div><p>Small by design. Big on heart.</p></div>
-      <div><h4>Quick Links</h4><p><a href="about.html">About</a></p><p><a href="programmes.html">Programmes</a></p><p><a href="admissions.html">Admissions</a></p></div>
-      <div><h4>Contact</h4><p>71, Jalan Adda 3/1, Taman Adda Height, 81100 Johor Bahru</p><p><a href="tel:+6073642678">07-364 2678</a></p></div>
-      <div><h4>Follow</h4><p><a href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p><p><a href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p></div>
+      <div>
+        <div class="footer-brand" data-shared="footer_brand">Edusky Private School</div>
+        <p data-shared="footer_tagline">An intentional micro-school in Taman Adda Height, Johor Bahru. Small by design. Big on heart.</p>
+        <p style="font-size:11px;color:var(--gray-light)">SMIPS Code: <span data-shared="smips_code">JDA1001</span> &middot; MOE-Registered</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="about.html">About Us</a></p>
+        <p><a href="programmes.html">Programmes</a></p>
+        <p><a href="admissions.html">Admissions</a></p>
+        <p><a href="gallery.html">Gallery</a></p>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p data-shared="footer_address">71, Jalan Adda 3/1<br>Taman Adda Height<br>81100 Johor Bahru, Johor</p>
+        <p><a data-shared="footer_phone" href="tel:+6073642678"><span data-shared="footer_phone_text">07-364 2678</span></a></p>
+        <p><a data-shared="footer_whatsapp" href="https://wa.me/60167733518"><span data-shared="footer_whatsapp_text">016-773 3518</span></a></p>
+        <p><a data-shared="footer_email" href="mailto:eduskyacademy@gmail.com"><span data-shared="footer_email_text">eduskyacademy@gmail.com</span></a></p>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <p><a data-shared="social_facebook" href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p>
+        <p><a data-shared="social_instagram" href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p>
+        <p><a data-shared="social_tiktok" href="https://www.tiktok.com/@eduskyprivateschool" target="_blank">TikTok</a></p>
+        <p><a data-shared="social_youtube" href="https://www.youtube.com/@eduskylearningacademy6728" target="_blank">YouTube</a></p>
+      </div>
     </div>
-    <div class="footer-bottom"><span>&copy; 2026 Edusky Private School.</span><span>Built with hope for every child.</span></div>
+    <div class="footer-bottom">
+      <span data-shared="footer_copyright">&copy; 2026 Edusky Private School. All rights reserved.</span>
+      <span data-shared="footer_built">Built with hope for every child.</span>
+    </div>
   </div>
 </footer>
 
-<a href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+<a data-shared="whatsapp_link" href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+
 <script>
-const navToggle=document.getElementById('navToggle'),mobileNav=document.getElementById('mobileNav');
-if(navToggle&&mobileNav){navToggle.addEventListener('click',()=>mobileNav.classList.toggle('open'));mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileNav.classList.remove('open')));}
+var navToggle = document.getElementById('navToggle');
+var mobileNav = document.getElementById('mobileNav');
+if (navToggle && mobileNav) {
+  navToggle.addEventListener('click', function() { mobileNav.classList.toggle('open'); });
+  mobileNav.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', function() { mobileNav.classList.remove('open'); }); });
+}
 </script>
+
 </body>
 </html>

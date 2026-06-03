@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title data-field="title">Gallery | Edusky Private School</title>
+<title class="editable">Gallery | Edusky Private School</title>
 <meta name="description" content="Browse moments from Edusky Private School — classrooms, events, celebrations, sports, and student life.">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
-<script src="assets/cms.js" defer></script>
+<script src="assets/shared.js" defer></script>
 </head>
-<body data-content="gallery">
+<body data-page="gallery">
 
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-brand">
       <img src="images/logo.webp" alt="Edusky Logo" onerror="this.style.display='none'">
-      <span>Edusky Private School</span>
+      <span data-shared="brand_name">Edusky Private School</span>
     </a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
@@ -42,42 +42,101 @@
   <a href="admissions.html" class="mobile-cta">Enrol Now</a>
 </div>
 
+<!-- PAGE HERO -->
 <section class="page-hero">
   <div class="page-hero-content">
-    <h1 data-field="hero.title">Edusky in Pictures</h1>
-    <p data-field="hero.subtitle">Real moments from a small school with a big heart.</p>
+    <h1 class="editable">Edusky in Pictures</h1>
+    <p class="editable">Real moments from a small school with a big heart. Classrooms, concerts, celebrations, and everyday joy.</p>
   </div>
 </section>
 
+<!-- GALLERY -->
 <section class="section">
   <div class="container">
-    <p class="section-label">Gallery</p>
-    <h2 class="section-title">Moments That Matter</h2>
-    <div class="gallery" style="margin-top:32px" data-list="images">
-      <div class="gallery-item" data-item>
-        <img data-field="src" data-type="image" src="images/placeholder.jpg" alt="Gallery photo">
-        <div class="gallery-cap" data-field="caption">School moment</div>
+    <p class="section-label editable">Gallery</p>
+    <h2 class="section-title editable">Moments That Matter</h2>
+    <div class="gallery" style="margin-top:32px" data-cms-repeatable>
+      <div class="gallery-item">
+        <img src="images/gallery/event-001.jpg" alt="Year End Concert" class="editable-img">
+        <div class="gallery-cap editable">Year End Concert</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery/classroom-001.jpg" alt="Learning in Action" class="editable-img">
+        <div class="gallery-cap editable">Learning in Action</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery/student-001.jpg" alt="Student Portrait" class="editable-img">
+        <div class="gallery-cap editable">Student Portrait</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery/celebration-001.jpg" alt="Celebration Day" class="editable-img">
+        <div class="gallery-cap editable">Celebration Day</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery/outdoor-001.jpg" alt="Outdoor Fun" class="editable-img">
+        <div class="gallery-cap editable">Outdoor Fun</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery/sports-001.jpg" alt="Sports Day" class="editable-img">
+        <div class="gallery-cap editable">Sports Day</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery/facility-001.jpg" alt="School Hall" class="editable-img">
+        <div class="gallery-cap editable">School Hall</div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
-      <div><div class="footer-brand">Edusky Private School</div><p>Small by design. Big on heart.</p></div>
-      <div><h4>Quick Links</h4><p><a href="about.html">About</a></p><p><a href="programmes.html">Programmes</a></p><p><a href="admissions.html">Admissions</a></p></div>
-      <div><h4>Contact</h4><p>71, Jalan Adda 3/1, Taman Adda Height, 81100 Johor Bahru</p><p><a href="tel:+6073642678">07-364 2678</a></p></div>
-      <div><h4>Follow</h4><p><a href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p><p><a href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p></div>
+      <div>
+        <div class="footer-brand" data-shared="footer_brand">Edusky Private School</div>
+        <p data-shared="footer_tagline">An intentional micro-school in Taman Adda Height, Johor Bahru. Small by design. Big on heart.</p>
+        <p style="font-size:11px;color:var(--gray-light)">SMIPS Code: <span data-shared="smips_code">JDA1001</span> &middot; MOE-Registered</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="about.html">About Us</a></p>
+        <p><a href="programmes.html">Programmes</a></p>
+        <p><a href="admissions.html">Admissions</a></p>
+        <p><a href="gallery.html">Gallery</a></p>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p data-shared="footer_address">71, Jalan Adda 3/1<br>Taman Adda Height<br>81100 Johor Bahru, Johor</p>
+        <p><a data-shared="footer_phone" href="tel:+6073642678"><span data-shared="footer_phone_text">07-364 2678</span></a></p>
+        <p><a data-shared="footer_whatsapp" href="https://wa.me/60167733518"><span data-shared="footer_whatsapp_text">016-773 3518</span></a></p>
+        <p><a data-shared="footer_email" href="mailto:eduskyacademy@gmail.com"><span data-shared="footer_email_text">eduskyacademy@gmail.com</span></a></p>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <p><a data-shared="social_facebook" href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p>
+        <p><a data-shared="social_instagram" href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p>
+        <p><a data-shared="social_tiktok" href="https://www.tiktok.com/@eduskyprivateschool" target="_blank">TikTok</a></p>
+        <p><a data-shared="social_youtube" href="https://www.youtube.com/@eduskylearningacademy6728" target="_blank">YouTube</a></p>
+      </div>
     </div>
-    <div class="footer-bottom"><span>&copy; 2026 Edusky Private School.</span><span>Built with hope for every child.</span></div>
+    <div class="footer-bottom">
+      <span data-shared="footer_copyright">&copy; 2026 Edusky Private School. All rights reserved.</span>
+      <span data-shared="footer_built">Built with hope for every child.</span>
+    </div>
   </div>
 </footer>
 
-<a href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+<a data-shared="whatsapp_link" href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+
 <script>
-const navToggle=document.getElementById('navToggle'),mobileNav=document.getElementById('mobileNav');
-if(navToggle&&mobileNav){navToggle.addEventListener('click',()=>mobileNav.classList.toggle('open'));mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileNav.classList.remove('open')));}
+var navToggle = document.getElementById('navToggle');
+var mobileNav = document.getElementById('mobileNav');
+if (navToggle && mobileNav) {
+  navToggle.addEventListener('click', function() { mobileNav.classList.toggle('open'); });
+  mobileNav.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', function() { mobileNav.classList.remove('open'); }); });
+}
 </script>
+
 </body>
 </html>

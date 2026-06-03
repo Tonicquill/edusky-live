@@ -1,0 +1,146 @@
+# CloudCannon Configuration — Edusky Private School
+# Visual editing CMS for static HTML site
+# Docs: https://cloudcannon.com/documentation/
+
+source: .
+paths:
+  data: _data
+  uploads: images/uploads
+
+# ── Global Data ────────────────────────────────────────────
+data_config:
+  site_settings:
+    path: _data/settings.json
+    name: Site Settings
+    icon: settings
+
+# ── Collections ────────────────────────────────────────────
+collections_config:
+  pages:
+    path: ""
+    name: Pages
+    filter: strict
+    glob:
+      - "*.html"
+    icon: description
+    _enabled_editing: visual
+
+# ── Editable Regions ───────────────────────────────────────
+editable:
+  class: editable
+  region:
+    - selector: "[data-cms-repeatable]"
+      type: repeatable
+    - selector: ".editable"
+      type: inline
+
+# ── Rich Text ──────────────────────────────────────────────
+_inputs:
+  richtext:
+    type: richtext
+    options:
+      bold: true
+      italic: true
+      link: true
+      format: p h2 h3
+
+# ── Image Editing ──────────────────────────────────────────
+_editables:
+  images:
+    crop: true
+    resize: true
+    rotate: true
+
+# ── Repeatable Structures ──────────────────────────────────
+_array_structures:
+  philosophy_cards:
+    icon: card
+    values:
+      - icon: "★"
+        title: Card Title
+        text: Card description text here.
+  programme_items:
+    icon: card
+    values:
+      - icon: "🎓"
+        title: Programme Title
+        description: Programme description.
+        link: programmes.html
+  stats:
+    icon: bar_chart
+    values:
+      - value: "10+"
+        label: Stat Label
+  value_cards:
+    icon: card
+    values:
+      - icon: "★"
+        title: Value Title
+        description: Value description.
+  timeline_items:
+    icon: timeline
+    values:
+      - year: "2024"
+        title: Event Title
+        description: Event description.
+  process_steps:
+    icon: list_numbered
+    values:
+      - number: "1"
+        title: Step Title
+        description: Step description.
+  fee_items:
+    icon: table
+    values:
+      - item: Fee Name
+        details: Details about this fee
+        price: "RM Amount"
+  faq_items:
+    icon: help
+    values:
+      - question: Question text here?
+        answer: Answer text here.
+  open_day_items:
+    icon: event
+    values:
+      - date: "1 January 2026"
+        description: Event description.
+  subject_items:
+    icon: school
+    values:
+      - icon: "📖"
+        name: Subject Name
+  activity_items:
+    icon: school
+    values:
+      - icon: "📚"
+        name: Activity Name
+  camp_items:
+    icon: card
+    values:
+      - name: Camp Name
+        description: Camp description.
+        price: "RM 150–300 / child / week"
+  facility_items:
+    icon: card
+    values:
+      - name: Facility Name
+        description: Facility description.
+        image: images/facility-placeholder.jpg
+  gallery_images:
+    icon: image
+    values:
+      - src: images/gallery/example.jpg
+        caption: Photo caption.
+        category: Category
+
+# ── SEO ────────────────────────────────────────────────────
+seo:
+  title:
+    path: "title"
+  description:
+    path: "meta[name='description']"
+
+# ── Publishing ─────────────────────────────────────────────
+# GitHub Pages sync — CloudCannon pushes to configured branch
+# Site deploys automatically via GitHub Pages

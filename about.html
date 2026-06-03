@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title data-field="title">About Us | Edusky Private School</title>
+<title class="editable">About Us | Edusky Private School</title>
 <meta name="description" content="Kenali Dr. Ng Peng Long and pasukan Edusky. Misi, nilai, dan kenapa kami memilih kelas kecil. Sekolah rendah swasta di Johor Bahru sejak 2014.">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
-<script src="assets/cms.js" defer></script>
+<script src="assets/shared.js" defer></script>
 </head>
-<body data-content="about">
+<body data-page="about">
 
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-brand">
       <img src="images/logo.webp" alt="Edusky Logo" onerror="this.style.display='none'">
-      <span>Edusky Private School</span>
+      <span data-shared="brand_name">Edusky Private School</span>
     </a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
@@ -45,8 +45,8 @@
 <!-- PAGE HERO -->
 <section class="page-hero">
   <div class="page-hero-content">
-    <h1 data-field="hero.title">Our Story</h1>
-    <p data-field="hero.subtitle">Over a decade in education. A school built on the belief that every child deserves to be known.</p>
+    <h1 class="editable">Our Story</h1>
+    <p class="editable">Over a decade in education. A school built on the belief that every child deserves to be known.</p>
   </div>
 </section>
 
@@ -55,14 +55,14 @@
   <div class="container">
     <div class="grid-2" style="align-items:start">
       <div>
-        <p class="section-label" data-field="mission.label">Mission</p>
-        <h2 class="section-title" data-field="mission.title">Better One's Life</h2>
-        <p data-field="mission.text" style="color:var(--gray);line-height:1.7;font-size:15px">Edusky Private School is more than just a school; it is a community. We believe in fostering strong relationships between students, teachers and parents. Our dedicated faculty is committed to providing a nurturing environment where every child feels valued and inspired. We offer quality educational services to learners of all age groups and backgrounds, empowering them with the knowledge and personal skills necessary to shape their future.</p>
+        <p class="section-label editable">Mission</p>
+        <h2 class="section-title editable">Better One's Life</h2>
+        <p class="editable" style="color:var(--gray);line-height:1.7;font-size:15px">Edusky Private School is more than just a school; it is a community. We believe in fostering strong relationships between students, teachers and parents. Our dedicated faculty is committed to providing a nurturing environment where every child feels valued and inspired. We offer quality educational services to learners of all age groups and backgrounds, empowering them with the knowledge and personal skills necessary to shape their future.</p>
       </div>
       <div>
-        <p class="section-label" data-field="vision.label">Vision</p>
-        <h2 class="section-title" data-field="vision.title">Empowering Tomorrow's Leaders</h2>
-        <p data-field="vision.text" style="color:var(--gray);line-height:1.7;font-size:15px">We strive to accomplish academic excellence and a higher standard of living for every student. Our goal is delivering a holistic education that combines strong academics with deep character development, preparing students for success in personal and professional life.</p>
+        <p class="section-label editable">Vision</p>
+        <h2 class="section-title editable">Empowering Tomorrow's Leaders</h2>
+        <p class="editable" style="color:var(--gray);line-height:1.7;font-size:15px">We strive to accomplish academic excellence and a higher standard of living for every student. Our goal is delivering a holistic education that combines strong academics with deep character development, preparing students for success in personal and professional life.</p>
       </div>
     </div>
   </div>
@@ -71,15 +71,15 @@
 <!-- FOUNDER -->
 <section class="section bg-sky-soft">
   <div class="container">
-    <p class="section-label">Founder & Principal</p>
+    <p class="section-label editable">Founder & Principal</p>
     <div class="grid-2" style="align-items:center;gap:48px">
       <div>
-        <img data-field="founder.photo" data-type="image" src="images/dr-ng-peng-long.jpg" alt="Dr. Ng Peng Long" style="width:100%;border-radius:12px">
+        <img src="images/dr-ng-peng-long.jpg" alt="Dr. Ng Peng Long" style="width:100%;border-radius:12px" class="editable-img">
       </div>
       <div>
-        <h2 style="font-size:clamp(26px,3vw,38px);line-height:1.15;margin-bottom:8px" data-field="founder.name">Dr. Ng Peng Long</h2>
-        <p style="color:var(--sky);font-weight:700;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:20px" data-field="founder.role">Founder & Director</p>
-        <p data-field="founder.bio" style="color:var(--gray);line-height:1.7;margin-bottom:16px">Dr. Ng Peng Long holds a PhD in Marketing from Universiti Sains Malaysia and brings more than two decades of senior leadership in education and training.</p>
+        <h2 class="editable" style="font-size:clamp(26px,3vw,38px);line-height:1.15;margin-bottom:8px">Dr. Ng Peng Long</h2>
+        <p class="editable" style="color:var(--sky);font-weight:700;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:20px">Founder & Director</p>
+        <p class="editable" style="color:var(--gray);line-height:1.7;margin-bottom:16px">Dr. Ng Peng Long holds a PhD in Marketing from Universiti Sains Malaysia and brings more than two decades of senior leadership in education and training. He spent seventeen years as a Director at Wawasan Open University, served as Deputy CEO of Austin Legacy Education (Asia Metropolitan University), and is currently CEO of Lead Future Holdings Sdn Bhd, where he leads work in talent development, training, certification, and ESG. Under his leadership, Edusky was built on a simple belief: that small classes, strong relationships, and a parent's ability to walk in unannounced and be greeted by name are not luxuries — they are the foundation of how children learn best. His vision for the school is rooted in collaboration, inclusivity, and academic excellence that prepares students to thrive in life, not just in exams.</p>
       </div>
     </div>
   </div>
@@ -88,13 +88,28 @@
 <!-- VALUES -->
 <section class="section">
   <div class="container">
-    <p class="section-label">Our Principles</p>
-    <h2 class="section-title">What we stand for</h2>
-    <div class="grid-2" style="margin-top:40px" data-list="values">
-      <div class="card" data-item style="text-align:center;padding:40px 28px">
-        <div class="card-icon sky" style="margin:0 auto 20px" data-field="icon">★</div>
-        <h3 data-field="title">Known by Name</h3>
-        <p data-field="description">No child falls through the cracks. Our teachers know each student's strengths, challenges, interests, and learning style — personally, not from a file.</p>
+    <p class="section-label editable">Our Principles</p>
+    <h2 class="section-title editable">What we stand for</h2>
+    <div class="grid-2" style="margin-top:40px" data-cms-repeatable>
+      <div class="card" style="text-align:center;padding:40px 28px">
+        <div class="card-icon sky editable" style="margin:0 auto 20px">&#9733;</div>
+        <h3 class="editable">Known by Name</h3>
+        <p class="editable">No child falls through the cracks. Our teachers know each student's strengths, challenges, interests, and learning style — personally, not from a file.</p>
+      </div>
+      <div class="card" style="text-align:center;padding:40px 28px">
+        <div class="card-icon sky editable" style="margin:0 auto 20px">&#9829;</div>
+        <h3 class="editable">Nurtured to Grow</h3>
+        <p class="editable">Every child feels valued and inspired. Warmth with boundaries. Clear expectations with consistent follow-through. Relationships strong enough to hold accountability and gentle enough to build trust.</p>
+      </div>
+      <div class="card" style="text-align:center;padding:40px 28px">
+        <div class="card-icon sky editable" style="margin:0 auto 20px">&#127793;</div>
+        <h3 class="editable">Empowered for Life</h3>
+        <p class="editable">We teach children how to think, not what to think. Confidence, creativity, and the ability to ask better questions. Academic excellence paired with character development prepares students to shape their future.</p>
+      </div>
+      <div class="card" style="text-align:center;padding:40px 28px">
+        <div class="card-icon sky editable" style="margin:0 auto 20px">&#129309;</div>
+        <h3 class="editable">Rooted in Community</h3>
+        <p class="editable">Strong relationships between students, teachers, and parents. CSR projects, parent workshops, expert talks, and student volunteering — a community built together, not an institution run from above.</p>
       </div>
     </div>
   </div>
@@ -103,12 +118,33 @@
 <!-- TIMELINE -->
 <section class="section bg-sunrise-soft">
   <div class="container">
-    <p class="section-label">Our Journey</p>
-    <h2 class="section-title">From One Classroom to a Community</h2>
-    <div class="timeline" style="margin-top:36px;max-width:650px" data-list="timeline">
-      <div class="timeline-item" data-item>
-        <h3 data-field="year">2014</h3>
-        <p data-field="description">Edusky Learning Academy founded. A single classroom with a conviction: every child deserves to be known.</p>
+    <p class="section-label editable">Our Journey</p>
+    <h2 class="section-title editable">From One Classroom to a Community</h2>
+    <div class="timeline" style="margin-top:36px;max-width:650px" data-cms-repeatable>
+      <div class="timeline-item">
+        <h3 class="editable">2014</h3>
+        <h4 class="editable">Foundation</h4>
+        <p class="editable">Edusky Learning Academy founded. A single classroom with a conviction: every child deserves to be known.</p>
+      </div>
+      <div class="timeline-item">
+        <h3 class="editable">2016</h3>
+        <h4 class="editable">Expansion</h4>
+        <p class="editable">Expanded to multi-standard primary. First cohort of Standard 1–6 students.</p>
+      </div>
+      <div class="timeline-item">
+        <h3 class="editable">2019</h3>
+        <h4 class="editable">Upgrade</h4>
+        <p class="editable">Facilities upgraded. Chinese investor delegation visits and positively assesses campus.</p>
+      </div>
+      <div class="timeline-item">
+        <h3 class="editable">2022</h3>
+        <h4 class="editable">Registration</h4>
+        <p class="editable">Rebranded as Edusky Private School. SMIPS registration JDA1001. MOE-registered KSSR curriculum.</p>
+      </div>
+      <div class="timeline-item">
+        <h3 class="editable">2026</h3>
+        <h4 class="editable">Community</h4>
+        <p class="editable">Micro-school model formalised. Community programmes, parent network, and alumni outreach begin.</p>
       </div>
     </div>
   </div>
@@ -119,9 +155,9 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <div class="footer-brand">Edusky Private School</div>
-        <p>An intentional micro-school in Taman Adda Height, Johor Bahru.</p>
-        <p style="font-size:11px;color:var(--gray-light)">SMIPS Code: JDA1001 · MOE-Registered</p>
+        <div class="footer-brand" data-shared="footer_brand">Edusky Private School</div>
+        <p data-shared="footer_tagline">An intentional micro-school in Taman Adda Height, Johor Bahru. Small by design. Big on heart.</p>
+        <p style="font-size:11px;color:var(--gray-light)">SMIPS Code: <span data-shared="smips_code">JDA1001</span> &middot; MOE-Registered</p>
       </div>
       <div>
         <h4>Quick Links</h4>
@@ -133,33 +169,34 @@
       </div>
       <div>
         <h4>Contact</h4>
-        <p>71, Jalan Adda 3/1<br>Taman Adda Height<br>81100 Johor Bahru, Johor</p>
-        <p><a href="tel:+6073642678">07-364 2678</a></p>
-        <p><a href="https://wa.me/60167733518">016-773 3518</a></p>
+        <p data-shared="footer_address">71, Jalan Adda 3/1<br>Taman Adda Height<br>81100 Johor Bahru, Johor</p>
+        <p><a data-shared="footer_phone" href="tel:+6073642678"><span data-shared="footer_phone_text">07-364 2678</span></a></p>
+        <p><a data-shared="footer_whatsapp" href="https://wa.me/60167733518"><span data-shared="footer_whatsapp_text">016-773 3518</span></a></p>
+        <p><a data-shared="footer_email" href="mailto:eduskyacademy@gmail.com"><span data-shared="footer_email_text">eduskyacademy@gmail.com</span></a></p>
       </div>
       <div>
         <h4>Follow Us</h4>
-        <p><a href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p>
-        <p><a href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p>
-        <p><a href="https://www.tiktok.com/@eduskyprivateschool" target="_blank">TikTok</a></p>
-        <p><a href="https://www.youtube.com/@eduskylearningacademy6728" target="_blank">YouTube</a></p>
+        <p><a data-shared="social_facebook" href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p>
+        <p><a data-shared="social_instagram" href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p>
+        <p><a data-shared="social_tiktok" href="https://www.tiktok.com/@eduskyprivateschool" target="_blank">TikTok</a></p>
+        <p><a data-shared="social_youtube" href="https://www.youtube.com/@eduskylearningacademy6728" target="_blank">YouTube</a></p>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; 2026 Edusky Private School. All rights reserved.</span>
-      <span>Built with hope for every child.</span>
+      <span data-shared="footer_copyright">&copy; 2026 Edusky Private School. All rights reserved.</span>
+      <span data-shared="footer_built">Built with hope for every child.</span>
     </div>
   </div>
 </footer>
 
-<a href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+<a data-shared="whatsapp_link" href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
 
 <script>
-const navToggle = document.getElementById('navToggle');
-const mobileNav = document.getElementById('mobileNav');
+var navToggle = document.getElementById('navToggle');
+var mobileNav = document.getElementById('mobileNav');
 if (navToggle && mobileNav) {
-  navToggle.addEventListener('click', () => mobileNav.classList.toggle('open'));
-  mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('open')));
+  navToggle.addEventListener('click', function() { mobileNav.classList.toggle('open'); });
+  mobileNav.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', function() { mobileNav.classList.remove('open'); }); });
 }
 </script>
 

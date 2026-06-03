@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title data-field="title">Admissions | Edusky Private School</title>
+<title class="editable">Admissions | Edusky Private School</title>
 <meta name="description" content="Daftar sekolah rendah swasta di Taman Adda Height, Johor Bahru. Yuran, proses pendaftaran, trial week, dokumen diperlukan.">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
-<script src="assets/cms.js" defer></script>
+<script src="assets/shared.js" defer></script>
 </head>
-<body data-content="admissions">
+<body data-page="admissions">
 
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-brand">
       <img src="images/logo.webp" alt="Edusky Logo" onerror="this.style.display='none'">
-      <span>Edusky Private School</span>
+      <span data-shared="brand_name">Edusky Private School</span>
     </a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
@@ -42,42 +42,101 @@
   <a href="admissions.html" class="mobile-cta">Enrol Now</a>
 </div>
 
+<!-- PAGE HERO -->
 <section class="page-hero">
   <div class="page-hero-content">
-    <h1 data-field="hero.title">Join Edusky</h1>
-    <p data-field="hero.subtitle">2026 enrollment is open. Here is everything you need to know — clearly, honestly, with no hidden surprises.</p>
+    <h1 class="editable">Join Edusky</h1>
+    <p class="editable">2026 enrollment is open. Here is everything you need to know — clearly, honestly, with no hidden surprises.</p>
   </div>
 </section>
 
+<!-- PROCESS -->
 <section class="section">
   <div class="container">
-    <p class="section-label">Admissions Process</p>
-    <h2 class="section-title">Your journey to Edusky — step by step</h2>
-    <p class="section-subtitle">No hidden steps. No surprise fees. Just a clear path from first message to first day.</p>
-    <div class="timeline" style="margin-top:36px;max-width:700px;margin-left:auto;margin-right:auto" data-list="process">
-      <div class="timeline-item" data-item>
-        <span style="font-size:28px;color:var(--sunrise);font-family:var(--font-display);font-weight:700" data-field="number">1</span>
-        <h3 data-field="title">Discover</h3>
-        <p data-field="description">WhatsApp, call, or fill the inquiry form. Tell us your child's age and what you need.</p>
+    <p class="section-label editable">Admissions Process</p>
+    <h2 class="section-title editable">Your journey to Edusky — step by step</h2>
+    <p class="section-subtitle editable">No hidden steps. No surprise fees. Just a clear path from first message to first day.</p>
+    <div class="timeline" style="margin-top:36px;max-width:700px;margin-left:auto;margin-right:auto" data-cms-repeatable>
+      <div class="timeline-item">
+        <span class="editable" style="font-size:28px;color:var(--sunrise);font-family:var(--font-display);font-weight:700">1</span>
+        <h3 class="editable">Discover</h3>
+        <p class="editable">WhatsApp, call, or fill the inquiry form. Tell us your child's age and what you need.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="editable" style="font-size:28px;color:var(--sunrise);font-family:var(--font-display);font-weight:700">2</span>
+        <h3 class="editable">Visit</h3>
+        <p class="editable">Tour the campus. Meet Dr. Ng. See classrooms, labs, and the small-class magic.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="editable" style="font-size:28px;color:var(--sunrise);font-family:var(--font-display);font-weight:700">3</span>
+        <h3 class="editable">Trial Week</h3>
+        <p class="editable">Your child joins real classes for a week. No commitment. Just experience.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="editable" style="font-size:28px;color:var(--sunrise);font-family:var(--font-display);font-weight:700">4</span>
+        <h3 class="editable">Apply</h3>
+        <p class="editable">Submit birth cert, IC, photos, previous reports. We send the full checklist.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="editable" style="font-size:28px;color:var(--sunrise);font-family:var(--font-display);font-weight:700">5</span>
+        <h3 class="editable">Enrol</h3>
+        <p class="editable">Sign the registration form. Pay the fee. Your child is officially an Edusky student.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="editable" style="font-size:28px;color:var(--sunrise);font-family:var(--font-display);font-weight:700">6</span>
+        <h3 class="editable">Start</h3>
+        <p class="editable">Uniform fitting, orientation day, first week check-in. We do not drop you after signup.</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- FEES -->
 <section class="section bg-sunrise-soft">
   <div class="container">
-    <p class="section-label">Fee Structure</p>
-    <h2 class="section-title">Transparent pricing</h2>
-    <p class="section-subtitle">Total fees for new students range from RM 5,200 to RM 7,000 depending on year level. Monthly tuition is RM 1,000 across all standards.</p>
+    <p class="section-label editable">Fee Structure</p>
+    <h2 class="section-title editable">Transparent pricing</h2>
+    <p class="section-subtitle editable">Total fees for new students range from RM 5,200 to RM 7,000 depending on year level. Monthly tuition is RM 1,000 across all standards.</p>
     <div class="table-wrap" style="margin-top:32px;max-width:800px;margin-left:auto;margin-right:auto">
       <table>
         <thead>
           <tr><th>Fee Component</th><th>Details</th><th>Amount (RM)</th></tr>
         </thead>
-        <tbody data-list="fees">
-          <tr data-item>
-            <td><strong data-field="item">Registration Fee</strong></td>
-            <td data-field="price">One-time, non-refundable</td>
+        <tbody data-cms-repeatable>
+          <tr>
+            <td><strong class="editable">Registration Fee</strong></td>
+            <td class="editable">One-time, non-refundable</td>
+            <td class="editable">200</td>
+          </tr>
+          <tr>
+            <td><strong class="editable">Security Deposit</strong></td>
+            <td class="editable">Refundable with one-term notice</td>
+            <td class="editable">800 – 1,200</td>
+          </tr>
+          <tr>
+            <td><strong class="editable">Monthly Tuition</strong></td>
+            <td class="editable">Per month, all standards</td>
+            <td class="editable">1,000</td>
+          </tr>
+          <tr>
+            <td><strong class="editable">Laboratory Fee</strong></td>
+            <td class="editable">Annual</td>
+            <td class="editable">300</td>
+          </tr>
+          <tr>
+            <td><strong class="editable">School Uniform</strong></td>
+            <td class="editable">Set of 5 pcs</td>
+            <td class="editable">800 – 1,200</td>
+          </tr>
+          <tr>
+            <td><strong class="editable">Extracurricular Fee</strong></td>
+            <td class="editable">Annual, by programme</td>
+            <td class="editable">300 – 600</td>
+          </tr>
+          <tr>
+            <td><strong class="editable">December Fee</strong></td>
+            <td class="editable">Special term fee</td>
+            <td class="editable">1,000 – 1,300</td>
           </tr>
         </tbody>
       </table>
@@ -85,48 +144,119 @@
   </div>
 </section>
 
+<!-- FAQ -->
 <section class="section">
   <div class="container">
-    <p class="section-label">FAQ</p>
-    <h2 class="section-title">Questions parents ask</h2>
-    <div style="max-width:750px;margin-top:32px" data-list="faq">
-      <div class="card" data-item style="padding:20px;margin-bottom:16px">
-        <h3 data-field="question">What curriculum does Edusky follow?</h3>
-        <p data-field="answer" style="color:var(--gray);font-size:14px;margin-top:8px">We follow the KSSR (Kurikulum Standard Sekolah Rendah), Malaysia's national primary curriculum approved by the Ministry of Education.</p>
+    <p class="section-label editable">FAQ</p>
+    <h2 class="section-title editable">Questions parents ask</h2>
+    <div style="max-width:750px;margin-top:32px" data-cms-repeatable>
+      <div class="card" style="padding:20px;margin-bottom:16px">
+        <h3 class="editable">What curriculum does Edusky follow?</h3>
+        <p class="editable" style="color:var(--gray);font-size:14px;margin-top:8px">We follow the KSSR (Kurikulum Standard Sekolah Rendah), Malaysia's national primary curriculum approved by the Ministry of Education. Our SMIPS registration code is JDA1001.</p>
+      </div>
+      <div class="card" style="padding:20px;margin-bottom:16px">
+        <h3 class="editable">What are the school hours?</h3>
+        <p class="editable" style="color:var(--gray);font-size:14px;margin-top:8px">School runs Mon–Thu 8:30 AM – 1:00 PM with Enrichment 2:00 PM – 4:00 PM, and Fri 8:30 AM – 12:00 PM.</p>
+      </div>
+      <div class="card" style="padding:20px;margin-bottom:16px">
+        <h3 class="editable">What is the maximum class size?</h3>
+        <p class="editable" style="color:var(--gray);font-size:14px;margin-top:8px">We maintain a maximum teacher-student ratio of approximately 1:15. This is core to our philosophy — every child is known individually, taught personally, and supported fully.</p>
+      </div>
+      <div class="card" style="padding:20px;margin-bottom:16px">
+        <h3 class="editable">Does Edusky accept children who need extra support?</h3>
+        <p class="editable" style="color:var(--gray);font-size:14px;margin-top:8px">Yes. We are an intentionally small school, which means teachers have the time and space to understand each child individually. Children who learn at a different pace often thrive here.</p>
+      </div>
+      <div class="card" style="padding:20px;margin-bottom:16px">
+        <h3 class="editable">What ages does Edusky accept?</h3>
+        <p class="editable" style="color:var(--gray);font-size:14px;margin-top:8px">Standard 1 through Standard 6, typically ages 7 to 12.</p>
+      </div>
+      <div class="card" style="padding:20px;margin-bottom:16px">
+        <h3 class="editable">Is there a trial period?</h3>
+        <p class="editable" style="color:var(--gray);font-size:14px;margin-top:8px">Yes. We offer a trial week — your child attends real classes before you make any long-term commitment.</p>
+      </div>
+      <div class="card" style="padding:20px;margin-bottom:16px">
+        <h3 class="editable">How do I pay fees?</h3>
+        <p class="editable" style="color:var(--gray);font-size:14px;margin-top:8px">Fees can be paid by bank transfer, cheque, or online banking. We issue official receipts for all payments.</p>
+      </div>
+      <div class="card" style="padding:20px;margin-bottom:16px">
+        <h3 class="editable">Is there after-school care?</h3>
+        <p class="editable" style="color:var(--gray);font-size:14px;margin-top:8px">Enrichment programmes and after-school tuition are available on-site for children who stay beyond regular hours.</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- OPEN DAYS -->
 <section class="section bg-sky-soft">
   <div class="container">
-    <p class="section-label">Visit Us</p>
-    <h2 class="section-title">Upcoming Open Days</h2>
-    <div class="grid-3" style="margin-top:32px" data-list="open_days">
-      <div class="card" data-item style="padding:28px">
-        <h3 data-field="date">12 July 2026</h3>
-        <p data-field="description">Saturday morning tour. Meet teachers, see classrooms, ask questions.</p>
+    <p class="section-label editable">Visit Us</p>
+    <h2 class="section-title editable">Upcoming Open Days</h2>
+    <div class="grid-3" style="margin-top:32px" data-cms-repeatable>
+      <div class="card" style="padding:28px">
+        <h3 class="editable">12 July 2026</h3>
+        <p class="editable">Saturday morning tour. Meet teachers, see classrooms, ask questions. No appointment needed.</p>
+      </div>
+      <div class="card" style="padding:28px">
+        <h3 class="editable">15 August 2026</h3>
+        <p class="editable">Enrolment clinic. Bring documents, get on-the-spot assessment, and secure a place for 2026.</p>
+      </div>
+      <div class="card" style="padding:28px">
+        <h3 class="editable">5 September 2026</h3>
+        <p class="editable">Student-led campus tour. See the school through the eyes of current students.</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
-      <div><div class="footer-brand">Edusky Private School</div><p>Small by design. Big on heart.</p></div>
-      <div><h4>Quick Links</h4><p><a href="about.html">About</a></p><p><a href="programmes.html">Programmes</a></p><p><a href="admissions.html">Admissions</a></p></div>
-      <div><h4>Contact</h4><p>71, Jalan Adda 3/1, Taman Adda Height, 81100 Johor Bahru</p><p><a href="tel:+6073642678">07-364 2678</a></p></div>
-      <div><h4>Follow</h4><p><a href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p><p><a href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p></div>
+      <div>
+        <div class="footer-brand" data-shared="footer_brand">Edusky Private School</div>
+        <p data-shared="footer_tagline">An intentional micro-school in Taman Adda Height, Johor Bahru. Small by design. Big on heart.</p>
+        <p style="font-size:11px;color:var(--gray-light)">SMIPS Code: <span data-shared="smips_code">JDA1001</span> &middot; MOE-Registered</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="about.html">About Us</a></p>
+        <p><a href="programmes.html">Programmes</a></p>
+        <p><a href="admissions.html">Admissions</a></p>
+        <p><a href="gallery.html">Gallery</a></p>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p data-shared="footer_address">71, Jalan Adda 3/1<br>Taman Adda Height<br>81100 Johor Bahru, Johor</p>
+        <p><a data-shared="footer_phone" href="tel:+6073642678"><span data-shared="footer_phone_text">07-364 2678</span></a></p>
+        <p><a data-shared="footer_whatsapp" href="https://wa.me/60167733518"><span data-shared="footer_whatsapp_text">016-773 3518</span></a></p>
+        <p><a data-shared="footer_email" href="mailto:eduskyacademy@gmail.com"><span data-shared="footer_email_text">eduskyacademy@gmail.com</span></a></p>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <p><a data-shared="social_facebook" href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p>
+        <p><a data-shared="social_instagram" href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p>
+        <p><a data-shared="social_tiktok" href="https://www.tiktok.com/@eduskyprivateschool" target="_blank">TikTok</a></p>
+        <p><a data-shared="social_youtube" href="https://www.youtube.com/@eduskylearningacademy6728" target="_blank">YouTube</a></p>
+      </div>
     </div>
-    <div class="footer-bottom"><span>&copy; 2026 Edusky Private School.</span><span>Built with hope for every child.</span></div>
+    <div class="footer-bottom">
+      <span data-shared="footer_copyright">&copy; 2026 Edusky Private School. All rights reserved.</span>
+      <span data-shared="footer_built">Built with hope for every child.</span>
+    </div>
   </div>
 </footer>
 
-<a href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+<a data-shared="whatsapp_link" href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+
 <script>
-const navToggle=document.getElementById('navToggle'),mobileNav=document.getElementById('mobileNav');
-if(navToggle&&mobileNav){navToggle.addEventListener('click',()=>mobileNav.classList.toggle('open'));mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileNav.classList.remove('open')));}
+var navToggle = document.getElementById('navToggle');
+var mobileNav = document.getElementById('mobileNav');
+if (navToggle && mobileNav) {
+  navToggle.addEventListener('click', function() { mobileNav.classList.toggle('open'); });
+  mobileNav.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', function() { mobileNav.classList.remove('open'); }); });
+}
 </script>
+
 </body>
 </html>

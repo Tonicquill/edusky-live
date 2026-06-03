@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title data-field="title">Facilities | Edusky Private School</title>
+<title class="editable">Facilities | Edusky Private School</title>
 <meta name="description" content="Explore Edusky Private School's purpose-built campus — computer lab, science lab, library, hall, classrooms, discussion rooms, and more.">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
-<script src="assets/cms.js" defer></script>
+<script src="assets/shared.js" defer></script>
 </head>
-<body data-content="facilities">
+<body data-page="facilities">
 
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-brand">
       <img src="images/logo.webp" alt="Edusky Logo" onerror="this.style.display='none'">
-      <span>Edusky Private School</span>
+      <span data-shared="brand_name">Edusky Private School</span>
     </a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
@@ -42,48 +42,155 @@
   <a href="admissions.html" class="mobile-cta">Enrol Now</a>
 </div>
 
+<!-- PAGE HERO -->
 <section class="page-hero">
   <div class="page-hero-content">
-    <h1 data-field="hero.title">Facilities</h1>
-    <p data-field="hero.subtitle">Purpose-built spaces designed for small-group learning, hands-on discovery, and community gathering.</p>
+    <h1 class="editable">Facilities</h1>
+    <p class="editable">Purpose-built spaces designed for small-group learning, hands-on discovery, and community gathering.</p>
   </div>
 </section>
 
+<!-- FACILITIES GRID -->
 <section class="section">
   <div class="container">
-    <p class="section-label">Spaces</p>
-    <h2 class="section-title">A Real School With Real Spaces</h2>
-    <p class="section-subtitle">Our campus at 71, Jalan Adda 3/1 includes purpose-built facilities visited and positively assessed by Chinese investors.</p>
-    <div class="grid-3" style="margin-top:36px" data-list="items">
-      <div class="card" data-item style="padding:0;overflow:hidden">
+    <p class="section-label editable">Spaces</p>
+    <h2 class="section-title editable">A Real School With Real Spaces</h2>
+    <p class="section-subtitle editable">Our campus at 71, Jalan Adda 3/1 includes purpose-built facilities visited and positively assessed by Chinese investors.</p>
+    <div class="grid-3" style="margin-top:36px" data-cms-repeatable>
+      <div class="card" style="padding:0;overflow:hidden">
         <div style="height:200px;overflow:hidden">
-          <img data-field="image" data-type="image" src="images/facility-placeholder.jpg" alt="Facility" style="width:100%;height:100%;object-fit:cover">
+          <img src="images/facilities/computer-lab.jpg" alt="Computer Lab" style="width:100%;height:100%;object-fit:cover" class="editable-img">
         </div>
         <div style="padding:20px">
-          <h3 style="font-size:16px" data-field="name">Computer Lab</h3>
-          <p style="font-size:13px;color:var(--gray)" data-field="description">Modern computing facilities for digital literacy and ICT lessons.</p>
+          <h3 class="editable" style="font-size:16px">Computer Lab</h3>
+          <p class="editable" style="font-size:13px;color:var(--gray)">Modern computing facilities for digital literacy and ICT lessons. Students build confidence with technology from an early age.</p>
+        </div>
+      </div>
+      <div class="card" style="padding:0;overflow:hidden">
+        <div style="height:200px;overflow:hidden">
+          <img src="images/facilities/science-lab.jpg" alt="Science Lab" style="width:100%;height:100%;object-fit:cover" class="editable-img">
+        </div>
+        <div style="padding:20px">
+          <h3 class="editable" style="font-size:16px">Science Lab</h3>
+          <p class="editable" style="font-size:13px;color:var(--gray)">Hands-on experiments and inquiry-based learning in an equipped lab. Students learn by doing — not just watching.</p>
+        </div>
+      </div>
+      <div class="card" style="padding:0;overflow:hidden">
+        <div style="height:200px;overflow:hidden">
+          <img src="images/facilities/discussion-room.jpg" alt="Discussion Room" style="width:100%;height:100%;object-fit:cover" class="editable-img">
+        </div>
+        <div style="padding:20px">
+          <h3 class="editable" style="font-size:16px">Discussion Room</h3>
+          <p class="editable" style="font-size:13px;color:var(--gray)">Small-group spaces for collaborative learning and peer discussion. Where ideas are shared and confidence is built.</p>
+        </div>
+      </div>
+      <div class="card" style="padding:0;overflow:hidden">
+        <div style="height:200px;overflow:hidden">
+          <img src="images/facilities/hall.jpg" alt="Hall" style="width:100%;height:100%;object-fit:cover" class="editable-img">
+        </div>
+        <div style="padding:20px">
+          <h3 class="editable" style="font-size:16px">Hall</h3>
+          <p class="editable" style="font-size:13px;color:var(--gray)">Multi-purpose space for assemblies, performances, and gatherings. Concerts, celebrations, and community events happen here.</p>
+        </div>
+      </div>
+      <div class="card" style="padding:0;overflow:hidden">
+        <div style="height:200px;overflow:hidden">
+          <img src="images/facilities/library.jpg" alt="Library" style="width:100%;height:100%;object-fit:cover" class="editable-img">
+        </div>
+        <div style="padding:20px">
+          <h3 class="editable" style="font-size:16px">Library</h3>
+          <p class="editable" style="font-size:13px;color:var(--gray)">Reading resources and quiet study space for all students. A place to explore, imagine, and discover independently.</p>
+        </div>
+      </div>
+      <div class="card" style="padding:0;overflow:hidden">
+        <div style="height:200px;overflow:hidden">
+          <img src="images/facilities/main-lobby.jpg" alt="Main Lobby" style="width:100%;height:100%;object-fit:cover" class="editable-img">
+        </div>
+        <div style="padding:20px">
+          <h3 class="editable" style="font-size:16px">Main Lobby</h3>
+          <p class="editable" style="font-size:13px;color:var(--gray)">Welcoming entrance and reception area for parents and visitors. First impressions matter — ours is warm and intentional.</p>
+        </div>
+      </div>
+      <div class="card" style="padding:0;overflow:hidden">
+        <div style="height:200px;overflow:hidden">
+          <img src="images/facilities/classroom.jpg" alt="Classroom" style="width:100%;height:100%;object-fit:cover" class="editable-img">
+        </div>
+        <div style="padding:20px">
+          <h3 class="editable" style="font-size:16px">Classroom</h3>
+          <p class="editable" style="font-size:13px;color:var(--gray)">Bright, air-conditioned spaces designed for small-group learning. Every child sits close enough to ask a question.</p>
+        </div>
+      </div>
+      <div class="card" style="padding:0;overflow:hidden">
+        <div style="height:200px;overflow:hidden">
+          <img src="images/facilities/surau.jpg" alt="Surau" style="width:100%;height:100%;object-fit:cover" class="editable-img">
+        </div>
+        <div style="padding:20px">
+          <h3 class="editable" style="font-size:16px">Surau</h3>
+          <p class="editable" style="font-size:13px;color:var(--gray)">Prayer space supporting spiritual development and religious observance. Respect and inclusion woven into daily life.</p>
+        </div>
+      </div>
+      <div class="card" style="padding:0;overflow:hidden">
+        <div style="height:200px;overflow:hidden">
+          <img src="images/facilities/outdoor.jpg" alt="Outdoor Space" style="width:100%;height:100%;object-fit:cover" class="editable-img">
+        </div>
+        <div style="padding:20px">
+          <h3 class="editable" style="font-size:16px">Outdoor Space</h3>
+          <p class="editable" style="font-size:13px;color:var(--gray)">Open-air area for physical activity, play, and outdoor learning. Fresh air and movement between lessons.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
-      <div><div class="footer-brand">Edusky Private School</div><p>Small by design. Big on heart.</p></div>
-      <div><h4>Quick Links</h4><p><a href="about.html">About</a></p><p><a href="programmes.html">Programmes</a></p><p><a href="admissions.html">Admissions</a></p></div>
-      <div><h4>Contact</h4><p>71, Jalan Adda 3/1, Taman Adda Height, 81100 Johor Bahru</p><p><a href="tel:+6073642678">07-364 2678</a></p></div>
-      <div><h4>Follow</h4><p><a href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p><p><a href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p></div>
+      <div>
+        <div class="footer-brand" data-shared="footer_brand">Edusky Private School</div>
+        <p data-shared="footer_tagline">An intentional micro-school in Taman Adda Height, Johor Bahru. Small by design. Big on heart.</p>
+        <p style="font-size:11px;color:var(--gray-light)">SMIPS Code: <span data-shared="smips_code">JDA1001</span> &middot; MOE-Registered</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="about.html">About Us</a></p>
+        <p><a href="programmes.html">Programmes</a></p>
+        <p><a href="admissions.html">Admissions</a></p>
+        <p><a href="gallery.html">Gallery</a></p>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p data-shared="footer_address">71, Jalan Adda 3/1<br>Taman Adda Height<br>81100 Johor Bahru, Johor</p>
+        <p><a data-shared="footer_phone" href="tel:+6073642678"><span data-shared="footer_phone_text">07-364 2678</span></a></p>
+        <p><a data-shared="footer_whatsapp" href="https://wa.me/60167733518"><span data-shared="footer_whatsapp_text">016-773 3518</span></a></p>
+        <p><a data-shared="footer_email" href="mailto:eduskyacademy@gmail.com"><span data-shared="footer_email_text">eduskyacademy@gmail.com</span></a></p>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <p><a data-shared="social_facebook" href="https://www.facebook.com/ela.johor.bahru/" target="_blank">Facebook</a></p>
+        <p><a data-shared="social_instagram" href="https://www.instagram.com/eduskyjb/" target="_blank">Instagram</a></p>
+        <p><a data-shared="social_tiktok" href="https://www.tiktok.com/@eduskyprivateschool" target="_blank">TikTok</a></p>
+        <p><a data-shared="social_youtube" href="https://www.youtube.com/@eduskylearningacademy6728" target="_blank">YouTube</a></p>
+      </div>
     </div>
-    <div class="footer-bottom"><span>&copy; 2026 Edusky Private School.</span><span>Built with hope for every child.</span></div>
+    <div class="footer-bottom">
+      <span data-shared="footer_copyright">&copy; 2026 Edusky Private School. All rights reserved.</span>
+      <span data-shared="footer_built">Built with hope for every child.</span>
+    </div>
   </div>
 </footer>
 
-<a href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+<a data-shared="whatsapp_link" href="https://wa.me/60167733518" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">&#9993;</a>
+
 <script>
-const navToggle=document.getElementById('navToggle'),mobileNav=document.getElementById('mobileNav');
-if(navToggle&&mobileNav){navToggle.addEventListener('click',()=>mobileNav.classList.toggle('open'));mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileNav.classList.remove('open')));}
+var navToggle = document.getElementById('navToggle');
+var mobileNav = document.getElementById('mobileNav');
+if (navToggle && mobileNav) {
+  navToggle.addEventListener('click', function() { mobileNav.classList.toggle('open'); });
+  mobileNav.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', function() { mobileNav.classList.remove('open'); }); });
+}
 </script>
+
 </body>
 </html>
